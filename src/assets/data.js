@@ -704,12 +704,12 @@ export const list = [
     {
         icon: <AiOutlineHome />,
         text: "먹튀사이트",
-        path:'/scam-casino-cards'
+        path:'/'
     },
     {
         icon: <BsBasket />,
-        text: "메인 홈",
-        path:'/'
+        text: "먹튀사이트",
+        path:'/scam-casino-cards'
     },
     {
         icon: <MdWifiTetheringErrorRounded />,
@@ -718,8 +718,8 @@ export const list = [
     },
     {
         icon: <AiFillDollarCircle />,
-        text: "게임뉴스",
-        path:'/scam-casino-cards'
+        text: "게임정보",
+        path:'/game-news'
     },
     {
         icon: <BsFillCalendar2MinusFill />,
@@ -729,28 +729,43 @@ export const list = [
     
     {
         icon: <BsFolder2 />,
-        text: "보너스,출석체크",
-        path:'/scam-casino-cards'
+        text: "카지노게임",
+        path:'/games'
     },
     {
         icon: <BiMessageSquareDetail />,
-        text: "포인트몰",
-        path:'/scam-casino-cards'
+        text: "보너스,출석체크",
+        path:'/attendence-check'
     },
     {
         icon: <FiSettings />,
         text: "이벤트",
-        path:'/scam-casino-cards'
+        path:'/event-articles'
     },
     {
         icon: <BiBook />,
-        text: "고객센터",
-        path:'/scam-casino-cards'
+        text: "포인트몰",
+        path:'/cash-exchange-detail'
     },
     {
         icon: <AiFillGoogleCircle />,
-        text: "고객센터",
-        path:'/scam-casino-cards'
+        text: "공지사항",
+        path:'/people-who-joined'
+    },
+    {
+        icon: <BiMessageSquareDetail />,
+        text: "고객센터 ",
+        path:'/customer-care-review'
+    },
+    {
+        icon: <FiSettings />,
+        text: "공지사항",
+        path:'/announcement-review'
+    },
+    {
+        icon: <BiBook />,
+        text: "인증업체",
+        path:'/casino-certification-first'
     },
 ];
 
