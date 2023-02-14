@@ -1,0 +1,41 @@
+@import "./media.scss";
+
+.simple__articles {
+  background: #010c17;
+  padding: 60px 20px;
+  .container {
+    .grid {
+      display: grid;
+
+      border-bottom: 1px solid #1e374a;
+
+      .item {
+        padding: 50px 0;
+        border-top: 1px solid #1e374a;
+        cursor: pointer;
+        .details {
+          max-width: 600px;
+          h3 {
+            font-weight: 500;
+            font-size: 18px;
+          }
+
+          > p {
+            opacity: 0.9;
+            font-size: 13px;
+            list-style: 1.5;
+            margin-top: 10px;
+            color: #47606d;
+          }
+
+          .date {
+            p {
+              color: #758087;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

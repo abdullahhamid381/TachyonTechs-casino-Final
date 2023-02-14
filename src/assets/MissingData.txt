@@ -1,0 +1,60 @@
+ Header - footer - Sidebar on every page images and text are not copyable
+Nothing is copyable in this page
+
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c36888c2f5990671a4893d
+
+
+
+At this page
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c387dcd334eb027b2113d6
+ 
+1 header image in not downloadable
+
+at this page:
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c387dfdb4a07b65409b0ec
+
+1 header file in not downloadable
+
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c36888c2f5990671a4893dz
+ sections
+
+ 게임뉴스 - 
+
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c39332d25c1204957dfbe3  (bottom images)
+
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c393322f015db60f812e64 (article images)
+
+ https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c7319a19136a01f3033a1a (bottom images)
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c73199343495b76ff1ed93 (article images)
+
+포인트몰-
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63d7add6fae89a110aa2b202 (banner image)
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63d7add7c60214124a0f4dcd
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63d7add7dcf0a613b33c2feb
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c72ae32bf94a04d86aea85
+
+이벤트 - 
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c38fc4c9196f02b9538ac1
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c38fc43543dfb8074e54bb
+
+고객센터 - 
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c390a723fcbc06bc771f14
+
+회원 섹션에 가입 -
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c3688a6ce07501f349b208 (full page )
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c3688e38ee29039543e5dc  (full page)
+
+인증업체 - 
+
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c387e2149cd702605dd05d (images)
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c387dfdb4a07b65409b0ec  (images)
+https://app.zeplin.io/project/63c367466c3a9d02e6876c44/screen/63c388aab08d3ab762576a4d      (images)

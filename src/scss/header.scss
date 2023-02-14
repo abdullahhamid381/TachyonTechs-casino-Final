@@ -1,0 +1,156 @@
+@import "./media.scss";
+
+header {
+  border-bottom: 2px solid #42525d;
+  padding: 10px 0;
+  position: relative;
+  z-index: 3;
+  @include lg {
+    background: #061b2a;
+    padding: 10px;
+  }
+  .container {
+    max-width: 1300px;
+    margin: auto;
+
+    .grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .start {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        @include md {
+          width: 70%;
+        }
+        .menu {
+          display: flex;
+          align-items: center;
+          font-size: 40px;
+          cursor: pointer;
+
+          @include lg {
+            display: none;
+          }
+        }
+        > p {
+          color: #868f95;
+          @include md {
+            width: 100%;
+          }
+        }
+      }
+
+      .end {
+        display: flex;
+        gap: 18px;
+
+        .links {
+          display: flex;
+
+          gap: 14px;
+          p {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 100;
+            opacity: 0.8;
+            @include lg {
+              font-size: 12px;
+            }
+          }
+          @include lg {
+            display: none;
+          }
+
+          a {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+          }
+        }
+
+        .btn {
+          background: black;
+          padding: 15px 35px;
+          border-radius: 6px;
+          font-size: 14px;
+          @include md {
+            padding: 10px 25px;
+            font-size: 12px;
+            background: #fff;
+            color: #000;
+            border-radius: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bottom__nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  place-items: center;
+  position: relative;
+  z-index: 2;
+  background: #132835;
+  padding: 10px 0;
+  @include -lg {
+    display: none;
+  }
+  .menu {
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .logo {
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 60px;
+    }
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    svg {
+      cursor: pointer;
+      font-size: 24px;
+      fill: #7b848a;
+      path {
+        fill: #7b848a;
+      }
+    }
+  }
+}
+.auto_scroll {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  cursor: pointer;
+  transition: 0.3s all;
+  z-index: 1001;
+  transform: scale(0);
+
+  > svg {
+    width: 40px;
+    background: black;
+    height: 40px;
+    place-content: center;
+    border-radius: 0;
+    pointer-events: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #dbd9e01f;
+    padding: 10px;
+    fill: #fff;
+  }
+}

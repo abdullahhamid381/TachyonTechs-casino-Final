@@ -1,0 +1,256 @@
+@import "./media.scss";
+
+.scam__from__v2 {
+  @include -lg {
+    padding: 20px 0;
+  }
+
+  .container {
+    form {
+      display: grid;
+      grid-gap: 1.5rem;
+      .first,
+      .second,
+      .fourth,
+      .third {
+        p {
+          color: #a9bac6;
+        }
+      }
+      .first {
+        display: grid;
+        gap: 15px;
+        input {
+          background: #061b2a;
+          padding: 20px 20px;
+          border-radius: 8px;
+          border: 0;
+          outline: none;
+          font-size: 14px;
+          @include md {
+            padding: 14px 20px;
+          }
+        }
+      }
+      .second {
+        display: grid;
+        gap: 15px;
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1.5rem;
+          @include md {
+            grid-template-columns: 1fr;
+          }
+          input {
+            background: #061b2a;
+            padding: 20px 20px;
+            border-radius: 8px;
+            border: 0;
+            outline: none;
+            font-size: 14px;
+            @include md {
+              padding: 14px 20px;
+            }
+          }
+        }
+      }
+      .third {
+        display: grid;
+        gap: 15px;
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 1.5rem;
+
+          @include md {
+            grid-template-columns: 1fr;
+          }
+          input,
+          select {
+            background: #061b2a;
+            padding: 20px 20px;
+            border-radius: 8px;
+            border: 0;
+            outline: none;
+            font-size: 14px;
+            color: #a9bac6;
+            @include md {
+              padding: 14px 20px;
+            }
+          }
+        }
+      }
+      .fourth {
+        display: grid;
+        gap: 15px;
+        textarea {
+          background: #061b2a;
+          padding: 20px 20px;
+          border-radius: 8px;
+          border: 0;
+          outline: none;
+          resize: none;
+          width: 100%;
+          min-height: 350px;
+        }
+      }
+      .fifth {
+        display: grid;
+        gap: 15px;
+        .top {
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          grid-gap: 1rem;
+          align-items: center;
+          @include md {
+            grid-template-columns: 1fr;
+          }
+          .start {
+            text-align: center;
+            font-size: 14px;
+            color: #a9bac6;
+            @include md {
+              text-align: start;
+            }
+          }
+          > input {
+            background: #061b2a;
+            padding: 20px 20px;
+            border-radius: 8px;
+            border: 0;
+            outline: none;
+            @include md {
+              padding: 14px 20px;
+            }
+          }
+        }
+        .bottom {
+          display: grid;
+          grid-template-columns: 1fr 5fr;
+          grid-gap: 1rem;
+          align-items: center;
+          @include md {
+            grid-template-columns: 1fr;
+          }
+          .start {
+            text-align: center;
+            font-size: 14px;
+            color: #a9bac6;
+            @include md {
+              text-align: start;
+            }
+          }
+          > .grid {
+            display: grid;
+            grid-template-columns: 5fr 1fr;
+            gap: 15px;
+            input {
+              background: #061b2a;
+              padding: 20px 20px;
+              border-radius: 8px;
+              border: 0;
+              outline: none;
+              font-size: 14px;
+              color: #a9bac6;
+              cursor: pointer;
+              @include md {
+                padding: 14px 20px;
+              }
+            }
+          }
+        }
+        .rest {
+          > .grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            @include md {
+              display: grid;
+              gap: 5px;
+              margin-top: 10px;
+            }
+            span {
+              color: #a9bac6;
+            }
+            .checkboxes {
+              display: flex;
+              gap: 5px;
+              align-items: center;
+              .checkbox {
+                display: flex;
+                font: 14px;
+                gap: 0px;
+                align-items: center;
+                color: #5f6b75;
+                .css-i4bv87-MuiSvgIcon-root {
+                  font-size: 1rem;
+                  fill: #a9bac6 !important;
+                }
+              }
+            }
+            p {
+              font-size: 12px;
+              color: #3a4853;
+            }
+
+            input {
+            }
+          }
+        }
+      }
+      .btn__grid__ {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 20px 0;
+
+        .start {
+          button {
+            padding: 14px 30px;
+            width: max-content;
+            border-radius: 10px;
+            border: 0px solid #ccc;
+            background: #7b90a0;
+            margin-top: 12px;
+            color: black;
+          }
+        }
+
+        .end {
+          display: flex;
+          gap: 10px;
+
+          button {
+            &:nth-child(1) {
+              padding: 14px 40px;
+              width: max-content;
+              border-radius: 10px;
+              border: 1px solid #7b90a0;
+              background: transparent;
+              margin-top: 12px;
+              color: #7b90a0;
+              @include md {
+                padding: 10px 30px;
+              }
+            }
+
+            &:nth-child(2) {
+              padding: 14px 40px;
+              width: max-content;
+              border-radius: 10px;
+              border: 0px solid #ccc;
+              background: #061b2a;
+              margin-top: 12px;
+              color: #788d9d;
+              @include md {
+                padding: 10px 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

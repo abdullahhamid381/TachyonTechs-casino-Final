@@ -1,0 +1,28 @@
+@import "./media.scss";
+
+.faqs{
+    padding: 60px 0;
+    .container{
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem 2rem;
+            @include md{
+                grid-template-columns: 1fr;
+            }
+            .start{
+
+            }
+            .end{
+                .img{
+                    border-radius: 8px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

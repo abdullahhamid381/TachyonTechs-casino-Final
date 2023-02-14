@@ -1,0 +1,214 @@
+@import "../media.scss";
+
+.casino-certification-third {
+  .title {
+    h1 {
+      font-size: 30px;
+      color: #a8b7c2;
+      padding-top: 50px;
+    }
+  }
+
+  .card-parent {
+    display: grid;
+    grid-template-columns: 250px auto 300px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px 0 80px 0;
+
+    @include lg {
+      grid-template-columns: 1fr;
+    }
+    .img-card {
+      margin-top: 42px;
+      h3 {
+        padding-bottom: 18px;
+      }
+      img {
+        @include lg {
+          width: 100%;
+        }
+      }
+    }
+
+    .card-first-data-parent {
+      background: #061b2a;
+      padding-top: 10px;
+      border-radius: 0 25px 25px 0;
+      margin-top: 80px;
+
+      @include lg {
+        margin-top: 10px;
+        border-radius: 25px;
+      }
+
+      .card-data {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        margin-left: 20px;
+
+        h6 {
+          margin-left: 10px;
+        }
+
+        button {
+          padding: 10px 20px;
+          background: #132835;
+          border-radius: 25px;
+          font-size: 10px;
+        }
+      }
+    }
+
+    .contact {
+      background: #061b2a;
+      border-radius: 25px;
+      margin-left: 40px;
+      margin-top: 80px;
+
+      @include lg {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+
+      .icons-parent {
+        margin-left: 20px;
+        margin: 30px 0 30px 40px;
+
+        .icon {
+          font-size: 18px;
+        }
+
+        span {
+          font-size: 18px;
+          color: #5f6b75;
+        }
+
+        h6 {
+          margin-top: 10px;
+          font-size: 12px;
+          color: #a9bac6;
+        }
+      }
+    }
+  }
+
+  .images-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    @include lg {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  .button-parent {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    @include lg {
+      justify-content: center;
+    }
+    button {
+      background: #061b2a;
+      padding: 20px 20px;
+      font-size: 10px;
+      border-radius: 8px;
+    }
+  }
+
+  .comment-parent-section {
+    padding: 80px 50px;
+    background: #061b2a;
+    border-radius: 25px;
+    .comment-parent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 0;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.478);
+      @include lg {
+        display: flex;
+        flex-direction: column;
+      }
+      button {
+        padding: 30px 30px;
+        background: #132835;
+        border-radius: 50px;
+      }
+      .level {
+        color: #5f6b75;
+        font-size: 16px;
+        padding-left: 10px;
+      }
+      .detail {
+        padding-left: 70px;
+        margin-top: -20px;
+        width: 80%;
+
+        .name {
+          color: #a9bac6;
+        }
+        .date {
+          color: #5f6b75;
+        }
+        .describe {
+          color: #5f6b75;
+          padding-top: 20px;
+        }
+      }
+      img {
+        width: 30%;
+        @include lg {
+          width: 30%;
+          margin-right: 40px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .comment-typing {
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 30px 0;
+        img {
+          width: 2%;
+        }
+      }
+      .input-type {
+        .text {
+          width: 100%;
+          padding: 20px 20px 50px 20px;
+          border: none;
+          outline: none;
+          background: none;
+          border: 1px solid rgba(128, 128, 128, 0.478);
+          border-radius: 8px;
+          margin-bottom: 20px;
+        }
+        .checkbox {
+          background: none;
+          color: #5b6c78;
+        }
+        .accept {
+          padding: 50px 0;
+          color: #5b6c78;
+        }
+        button {
+          float: right;
+          background: #132835;
+          border: none;
+          padding: 20px 30px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+@import "../media.scss";
+
+.casino__main {
+  padding: 60px 0;
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+
+    h2 {
+    }
+
+    .icons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #061b2a;
+        border-radius: 12px;
+        padding: 10px;
+        cursor: pointer;
+
+        svg {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .bar__ {
+    background: #061b2a;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    @include md {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .links {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+      @include lg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      li {
+        border-right: 1px solid #4f5c65;
+        padding: 10px 20px;
+        color: #868f95;
+        @include md {
+          text-align: center;
+        }
+      }
+    }
+    form.end {
+      display: flex;
+      gap: 10px;
+      @include md {
+        display: none;
+      }
+      .select {
+        select {
+          background: #1c2e3c;
+          padding: 15px;
+          border-radius: 10px;
+          outline: none;
+          border: 0;
+          color: #768894;
+          @include -lg {
+            width: 200px;
+          }
+        }
+      }
+      .search {
+        input {
+          background: #1c2e3c;
+          padding: 15px;
+          border-radius: 10px;
+          outline: none;
+          border: 0;
+          max-width: 300px;
+          width: 100%;
+          @include -lg {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+
+  .btn__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .start {
+      button {
+        padding: 14px 30px;
+        width: max-content;
+        border-radius: 10px;
+        border: 0px solid #ccc;
+        background: #7b90a0;
+        margin-top: 12px;
+        color: black;
+      }
+    }
+
+    .end {
+      display: flex;
+      gap: 10px;
+
+      button {
+        &:nth-child(1) {
+          padding: 14px 30px;
+          width: max-content;
+          border-radius: 10px;
+          border: 1px solid #7b90a0;
+          background: transparent;
+          margin-top: 12px;
+          color: #7b90a0;
+        }
+
+        &:nth-child(2) {
+          padding: 14px 30px;
+          width: max-content;
+          border-radius: 10px;
+          border: 0px solid #ccc;
+          background: #7b90a0;
+          margin-top: 12px;
+          color: black;
+        }
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 30px;
+  }
+}
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-page.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  color: #9da0a3 !important;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiPaginationItem-icon.css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon {
+  color: #9da0a3 !important;
+  opacity: 0.5 !important;
+}

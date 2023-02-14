@@ -1,0 +1,104 @@
+@import "./media.scss";
+
+.article__slider {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  .container {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 1rem 1rem;
+      width: 100%;
+      height: unset;
+      overflow: unset;
+      @include md {
+        margin-top: 100px;
+      }
+      .swiper-button-next {
+        position: absolute;
+        top: -15%;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        text-align: end;
+        margin-right: 3px;
+        padding-right: 10px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 100px;
+        &::after {
+          font-size: 16px !important;
+          color: #fff;
+        }
+      }
+      .swiper-button-prev {
+        position: absolute;
+        top: -15%;
+        font-size: 20px;
+        display: flex;
+        text-align: end;
+        margin-right: 3px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 100px;
+        right: 60px;
+        margin-left: auto;
+        &::after {
+          font-size: 16px !important;
+          color: #fff;
+        }
+      }
+      .item {
+        cursor: pointer;
+        figure {
+          border-radius: 8px;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .details {
+          padding: 12px 0;
+          h3 {
+            font-weight: 500;
+            font-size: 16px;
+            text-align: start;
+          }
+          p {
+            color: #758087;
+            font-size: 14px;
+            list-style: 1.5;
+            text-align: start;
+            margin-top: 10px;
+          }
+          button {
+            padding: 14px 30px;
+            width: 100%;
+            border-radius: 100px;
+            border: 1px solid #ccc;
+            background: transparent;
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: unset !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

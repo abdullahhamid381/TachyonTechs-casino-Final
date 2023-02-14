@@ -1,0 +1,331 @@
+@import "../media.scss";
+
+.coupn-mall-detail {
+  .cash-exchange-title {
+    padding: 60px 0;
+    font-size: 36px;
+    color: #9dacb7;
+    font-weight: bolder;
+  }
+
+  .table-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @include lg {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .first-exchange-table {
+      border: 1px solid gray;
+
+      h1 {
+        background: #061b2a;
+        padding: 30px 20px;
+        border-bottom: 1px solid gray;
+      }
+
+      .first {
+        display: flex;
+        padding: 20px 0;
+        justify-content: space-between;
+
+        li {
+          padding: 0 10px;
+          color: #a8b7c2;
+        }
+
+        span {
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+
+  .exchange-section-two {
+    .exchange-section-two-title {
+      border-bottom: 1px solid gray;
+
+      h1 {
+        padding: 100px 0 20px 0;
+        font-size: 36px;
+        font-weight: bolder;
+        color: #a8b7c2;
+      }
+
+      p {
+        font-size: 15px;
+        width: 60%;
+        padding-bottom: 40px;
+      }
+    }
+
+    .exchange-section-two-table {
+      h1 {
+        padding: 30px 0;
+
+        font-size: 20px;
+      }
+
+      .exchange-section-two-table-parent {
+        display: grid;
+        grid-template-columns: 250px auto;
+        align-items: center;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+
+        @include lg {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        h2 {
+          background: #061b2a;
+          padding: 20px 40px 20px 80px;
+
+          @include lg {
+            padding: 20px 40px 20px 10px;
+          }
+        }
+
+        p {
+          border-left: 1px solid gray;
+          padding: 20px 0 20px 80px;
+
+          @include lg {
+            border-left: none;
+            padding: 20px 0 20px 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .exchange-section-three {
+    padding: 20px 0 200px 0;
+
+    li {
+      padding: 5px 0;
+      color: #a8b7c2;
+    }
+  }
+
+  .exchange-section-four {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 80px;
+    align-items: center;
+    padding: 0 0 180px 0;
+
+    @include lg {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .exchange-section-four-form {
+      padding-left: 30px;
+      .form-intro {
+        border-bottom: 1px solid gray;
+
+        .span-first {
+          font-size: 25px;
+          color: white;
+          font-weight: bold;
+        }
+
+        .span-second {
+          float: right;
+          color: #a8b7c2;
+        }
+
+        p {
+          padding: 10px 0;
+          color: #a8b7c2;
+        }
+      }
+
+      .form-data {
+        h3 {
+          padding: 50px 0 10px 0;
+          color: #a8b7c2;
+        }
+
+        select {
+          background: none;
+          width: 100%;
+          border: 1px solid gray;
+          padding: 10px 0 10px 0;
+          outline: none;
+          border-radius: 8px;
+          color: #a8b7c2;
+          margin-bottom: 20px;
+        }
+
+        .form-button {
+          button {
+            padding: 15px 30px;
+            border: 1px solid gray;
+            transition: 0.3s;
+            border-radius: 8px;
+            color: #a8b7c2;
+            margin-top: 40px;
+
+            @include lg {
+              width: 100%;
+            }
+          }
+
+          button:focus {
+            background: #a8b7c2;
+          }
+
+          .active {
+            margin-left: 20px;
+            background: #a8b7c2;
+            color: black;
+
+            @include lg {
+              margin-left: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .exchange-section-five {
+    .filter {
+      h1 {
+        font-size: 36px;
+        padding-bottom: 20px;
+        font-weight: bolder;
+      }
+
+      .head {
+        background-color: #061b2a;
+        padding: 20px 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        @include lg {
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+          gap: 15px;
+        }
+
+        .date {
+          select {
+            padding: 12px 20px;
+            margin-right: 15px;
+            background: #132835;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            color: #7d868c;
+            @include lg {
+              padding: 12px 20px;
+              margin-right: 15px;
+              background: #132835;
+              border: none;
+              border-radius: 8px;
+              outline: none;
+              color: #7d868c;
+              width: 100%;
+            }
+          }
+
+          input {
+            padding: 10px 30px;
+            background: #132835;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+            color: #7d868c;
+            @include lg {
+              padding: 10px 30px;
+              background: #132835;
+              border: none;
+              border-radius: 8px;
+              outline: none;
+              color: #7d868c;
+              margin-top: 10px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    .review-excahnage-section-five {
+      padding: 80px 0;
+      border-bottom: 1px solid gray;
+      .review-title-parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+
+        @include lg {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .review-star {
+          display: flex;
+          align-items: center;
+          padding-left: 180px;
+          justify-content: flex-end;
+
+          img {
+            margin: 0 5px;
+            width: 5%;
+          }
+        }
+      }
+
+      .review-para {
+        p {
+          width: 80%;
+          color: #9aaab5;
+        }
+
+        h6 {
+          padding-top: 50px;
+          color: #525d64;
+        }
+      }
+    }
+  }
+
+  .exchange-section-six {
+    .filter {
+      padding: 50px 0;
+
+      .head {
+        background-color: #061b2a;
+        padding: 20px 20px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        @include lg {
+          flex-direction: column;
+          justify-content: start;
+          align-items: start;
+          gap: 15px;
+        }
+
+        .date {
+          button {
+            padding: 15px 50px;
+            border-radius: 8px;
+            background: #1c2e3c;
+          }
+        }
+      }
+    }
+  }
+}

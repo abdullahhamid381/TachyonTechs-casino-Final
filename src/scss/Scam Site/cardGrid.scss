@@ -1,0 +1,154 @@
+@import "../media.scss";
+.casino__cards {
+  padding: 60px 0;
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1.5rem 2rem;
+
+    .card {
+      cursor: pointer;
+
+      figure {
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .overflow {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: max-content;
+          padding: 20px;
+          background: rgba(0, 0, 0, 0.247);
+          display: flex;
+          justify-content: space-between;
+
+         > div {
+            background: #000000a2;
+              color: #ff3c3c;
+              font-size: 14px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 5px 18px;
+              border-radius: 100px;
+              font-weight: 700;
+              line-height: 1;
+              height: 35px;
+          }
+
+          .red {
+            background: red;
+            border-radius: 100%;
+            color: #fff;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+          }
+          .white {
+            background: #fce2b3;
+            border-radius: 100%;
+            color: #000;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .details {
+        padding: 12px 0;
+
+        h3 {
+          font-weight: 500;
+          font-size: 16px;
+        }
+                h5 {
+                  color: #5c6a73;
+                  margin-top: 4px;
+                  font-size: 14px;
+                }
+
+        p {
+          color: #758087;
+          font-size: 14px;
+          list-style: 1.5;
+          margin-top: 10px;
+          display: grid;
+          grid-template-columns: 1fr 1.5fr;
+          .ico {
+            opacity: 0.8;
+              color: #727d85;
+              font-size: 14px;
+              display: flex;
+              align-items: center;
+              gap: 7px;
+             svg{
+              fill: #727d85;
+             }
+          }
+          div{
+                font-size: 14px;
+                  color: #a7b6c1;
+          }
+        }
+      }
+    }
+  }
+
+  .btn__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .start {
+      button {
+        padding: 14px 30px;
+        width: max-content;
+        border-radius: 10px;
+        border: 0px solid #ccc;
+        background: #7b90a0;
+        margin-top: 12px;
+        color: black;
+      }
+    }
+    .end {
+      display: flex;
+      gap: 10px;
+      button {
+        &:nth-child(1) {
+          padding: 14px 30px;
+          width: max-content;
+          border-radius: 10px;
+          border: 1px solid #7b90a0;
+          background: transparent;
+          margin-top: 12px;
+          color: #7b90a0;
+        }
+        &:nth-child(2) {
+          padding: 14px 30px;
+          width: max-content;
+          border-radius: 10px;
+          border: 0px solid #ccc;
+          background: #7b90a0;
+          margin-top: 12px;
+          color: black;
+        }
+      }
+    }
+  }
+}

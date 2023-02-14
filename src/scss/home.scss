@@ -1,0 +1,14 @@
+@import "../scss/media.scss";
+
+.home {
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 250px auto;
+  gap: 1.5rem;
+  @include lg{
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,39 @@
+@import "./media.scss";
+
+.banner {
+  @include lg {
+    margin-top: 40px;
+  }
+  .img {
+    position: relative;
+    img {
+      width: 100%;
+      @include lg {
+        display: none;
+      }
+    }
+    .details {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      transform: translateY(-50%);
+      display: grid;
+      grid-gap: 5px;
+      max-width: 500px;
+      @include lg {
+        position: unset !important;
+        transform: unset;
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 40px;
+      }
+
+      h3 {
+        font-weight: 300;
+        font-size: 14px;
+        opacity: 0.8;
+      }
+    }
+  }
+}

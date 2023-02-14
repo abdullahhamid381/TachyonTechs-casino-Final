@@ -1,0 +1,104 @@
+@import "../media.scss";
+
+.games__grid__ {
+  padding: 60px 0;
+
+  .container {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-gap: 1.5rem 1rem;
+      @include lg {
+        grid-template-columns: 1fr 1fr;
+      }
+      .item {
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+          .overflow {
+            bottom: 0;
+          }
+        }
+        figure {
+          border-radius: 8px;
+          overflow: hidden;
+          position: relative;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          .overflow {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            bottom: -60%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 20px 10px;
+            background: linear-gradient(360deg, #192228b3, transparent);
+            transition: 0.3s all;
+            @include md {
+              bottom: -40%;
+              gap: 2rem;
+            }
+            .top {
+              .eng {
+                font-size: 26px;
+                font-weight: 900;
+                text-shadow: 3px 3px 3px black;
+                font-style: italic;
+              }
+              h2.koren {
+                font-size: 15px;
+                margin-top: 10px;
+              }
+            }
+            .bottom {
+              button {
+                background: #223848;
+                padding: 14px 40px;
+                border-radius: 8px;
+                font-size: 16px;
+                @include md {
+                  padding: 14px 30px;
+                }
+              }
+            }
+          }
+        }
+
+        .details {
+          padding: 12px 0;
+
+          p {
+            color: #758087;
+            font-size: 14px;
+            list-style: 1.5;
+            margin-top: 10px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    .bottom__btns {
+      display: flex;
+      gap: 15px;
+      padding: 20px 0;
+      flex-wrap: wrap;
+
+      button {
+        background: #2d404b;
+        padding: 15px 50px;
+        border-radius: 100px;
+      }
+
+      button.active {
+        background: #061b2a;
+      }
+    }
+  }
+}
