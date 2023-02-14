@@ -3,19 +3,18 @@
 .casino-certification-third {
   .title {
     h1 {
-      font-size: 30px;
-      color: #a8b7c2;
-      padding-top: 50px;
+        font-size: 30px;
+        color: #A8B7C2;
+        padding-top: 50px;
     }
-  }
+}
 
   .card-parent {
     display: grid;
-    grid-template-columns: 250px auto 300px;
+    grid-template-columns: 250px auto 260px;
     overflow: hidden;
     box-sizing: border-box;
-    padding: 0px 0 80px 0;
-
+   
     @include lg {
       grid-template-columns: 1fr;
     }
@@ -33,7 +32,7 @@
 
     .card-first-data-parent {
       background: #061b2a;
-      padding-top: 10px;
+      padding-top: 21px;
       border-radius: 0 25px 25px 0;
       margin-top: 80px;
 
@@ -50,6 +49,8 @@
 
         h6 {
           margin-left: 10px;
+          color:
+          #5f6b75;
         }
 
         button {
@@ -64,7 +65,7 @@
     .contact {
       background: #061b2a;
       border-radius: 25px;
-      margin-left: 40px;
+      margin-left: 15px;
       margin-top: 80px;
 
       @include lg {
@@ -86,9 +87,10 @@
         }
 
         h6 {
-          margin-top: 10px;
+          margin-top: 5px;
           font-size: 12px;
           color: #a9bac6;
+          margin-left: 22px;
         }
       }
     }
@@ -98,6 +100,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+    padding-top: 60px;
     @include lg {
       grid-template-columns: 1fr 1fr;
     }

@@ -35,68 +35,69 @@ const CasinoCertificationSecond = () => {
 
 
                     {
-                        casinocertificationsecondcards.map((map) => {
-                            const{img,button,title,buttontwo,titletwo,buttonthree,titlethree,buutonfour,titlefour,buttonfive,titlefive,homeicon,hometitle,homeweb,cellicon,celltitle,cellno,settingicon,settingtitle,settinginfo}=map;
-                            return (
-                                <div className="card-parent">
+    casinocertificationsecondcards.map((map)=>{
+        return(
+            <div className="card-parent">
 
-                                    <div>
-                                    <center><h3>홍길동카지노</h3></center>
-                                        <img src={img} alt="" />
-                                    </div>
-                                    <div className="card-first-data-parent">
-                                        <div className="card-data">
-                                            <button>{button}</button>
-                                            <h6>{title}</h6>
-                                        </div>
-                                        <div className="card-data">
-                                            <button>{buttontwo}</button>
-                                            <h6>{titletwo}</h6>
-                                        </div>
-                                        <div className="card-data">
-                                            <button>{buttonthree}</button>
-                                            <h6>{titlethree}</h6>
-                                        </div>
-                                        <div className="card-data">
-                                            <button>{buutonfour}</button>
-                                            <h6>{titlefour}</h6>
-                                        </div>
-                                        <div className="card-data">
-                                            <button>{buttonfive}</button>
-                                            <h6>
-                                               {titlefive}
-                                            </h6>
-                                        </div>
-                                    </div>
+                
+                    {/* FIRST SECTION START HERE */}
 
-                                    <div className="contact">
-                                        <div className="icons-parent">
-                                            <span className="icon">
-                                                {homeicon}
-                                            </span>
-                                            <span>{hometitle}</span>
-                                            <h6>{homeweb}</h6>
-                                        </div>
-                                        <div className="icons-parent">
-                                            <span className="icon">
-                                                {cellicon}
-                                            </span>
-                                            <span>{celltitle}</span>
-                                            <h6>{cellno}</h6>
-                                        </div>
-                                        <div className="icons-parent">
-                                            <span className="icon">
-                                                {settingicon}
-                                            </span>
-                                            <span>{settingtitle}</span>
-                                            <h6>{settinginfo}</h6>
-                                        </div>
-                                    </div>
+                    <div className="img-card">
+                    <center><h3>{map.h3}</h3></center>
+                        <img src={map.img} alt="" />
+                    </div>
+                    <div className="card-first-data-parent">
+                        <div className="card-data">
+                            <button>{map.button}</button>
+                            <h6>{map.title}</h6>
+                        </div>
+                        <div className="card-data">
+                            <button>{map.buttontwo}</button>
+                            <h6>{map.titletwo}</h6>
+                        </div>
+                        <div className="card-data">
+                            <button>{map.buttonthree}</button>
+                            <h6>{map.titlethree}</h6>
+                        </div>
+                        <div className="card-data">
+                            <button>{map.buutonfour}</button>
+                            <h6>{map.titlefour}</h6>
+                        </div>
+                        <div className="card-data">
+                            <button>{map.buttonfive}</button>
+                            <h6>
+                                {map.titlefive}
+                            </h6>
+                        </div>
+                    </div>
 
-                                    </div>
-                            )
-                        })
-                    }
+                    <div className="contact">
+                        <div className="icons-parent">
+                            <span className="icon">
+                                {map.homeicon}
+                            </span>
+                            <span>{map.hometitle}</span>
+                            <h6>{map.homeweb}</h6>
+                        </div>
+                        <div className="icons-parent">
+                            <span className="icon">
+                                {map.cellicon}
+                            </span>
+                            <span>{map.celltitle}</span>
+                            <h6>{map.cellno}</h6>
+                        </div>
+                        <div className="icons-parent">
+                            <span className="icon">
+                                {map.settingicon}
+                            </span>
+                            <span>{map.settingtitle}</span>
+                            <h6>{map.settinginfo}</h6>
+                        </div>
+                    </div>
+                </div>
+        )
+    })
+}
 
 
 
@@ -107,7 +108,7 @@ const CasinoCertificationSecond = () => {
                 
                 <div
                     className="pagination"
-                    style={{ display: "flex", justifyContent: "center", paddingBottom: '80px' }}
+                    style={{ display: "flex", justifyContent: "center", padding: '80px 0' }}
                 >
                     <Stack spacing={2}>
                         <Pagination count={10} showFirstButton showLastButton />

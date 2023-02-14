@@ -1567,6 +1567,7 @@ export const CasinoCertificationFirstSection = [
 
 export const casinocertificationsecondcards = [
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/first.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',
@@ -1590,6 +1591,7 @@ export const casinocertificationsecondcards = [
 
     },
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/second.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',
@@ -1613,6 +1615,7 @@ export const casinocertificationsecondcards = [
 
     },
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/third.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',
@@ -1636,6 +1639,7 @@ export const casinocertificationsecondcards = [
 
     },
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/fourth.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',
@@ -1659,6 +1663,7 @@ export const casinocertificationsecondcards = [
 
     },
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/fifth.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',
@@ -1682,6 +1687,7 @@ export const casinocertificationsecondcards = [
 
     },
     {
+        h3: '홍길동카지노',
         img: './images/certification/second/sixth.png',
         button: '이벤트1.',
         title: '이벤트 내용 혹은 제목이 들어가는 곳 입니다.',

@@ -224,7 +224,7 @@ const CasinoCertificationThird = () => {
                     style={{
                         display: "flex",
                         justifyContent: "center",
-                        paddingBottom: "80px",
+                        padding: "80px 0",
                     }}
                 >
                     <Stack spacing={2}>
