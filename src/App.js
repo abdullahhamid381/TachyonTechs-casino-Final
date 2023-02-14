@@ -200,7 +200,7 @@ function App() {
               element={<CasinoCertificationTwoPage />}
             />
             <Route
-              path="/casino-certification-third"
+              path="/"
               element={<CasinoCertificationThirdPage />}
             />
           </Routes>
