@@ -3,7 +3,9 @@ import logo from "../../assets/images/logo.PNG";
 import "../../scss/sidebar.scss";
 
 import { list } from "../../assets/data";
+import { useNavigate } from "react-router-dom";
 const Sidebar = ({ toggle, setToggle, setToggleLg, toggleLg }) => {
+    const navigate=useNavigate()
     return (
         <aside style={{ marginTop: toggle ? "0" : "-500%" }} className={toggleLg ? "hide" : ""}>
             <div className="top">
@@ -15,7 +17,7 @@ const Sidebar = ({ toggle, setToggle, setToggleLg, toggleLg }) => {
                 <ul>
                     {list.map((item, index) => {
                         return (
-                            <li key={index}>
+                            <li key={index} onClick={()=> navigate(item.path)}>
                                 {item.icon}
                                 <p>{item.text}</p>
                             </li>

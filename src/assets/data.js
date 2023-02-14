@@ -704,43 +704,53 @@ export const list = [
     {
         icon: <AiOutlineHome />,
         text: "먹튀사이트",
+        path:'/scam-casino-cards'
     },
     {
         icon: <BsBasket />,
         text: "메인 홈",
+        path:'/'
     },
     {
         icon: <MdWifiTetheringErrorRounded />,
         text: "게임정보",
+        path:'/game-information'
     },
     {
         icon: <AiFillDollarCircle />,
         text: "게임뉴스",
+        path:'/scam-casino-cards'
     },
     {
         icon: <BsFillCalendar2MinusFill />,
         text: "커뮤니티",
+        path:'/community-post'
     },
     
     {
         icon: <BsFolder2 />,
         text: "보너스,출석체크",
+        path:'/scam-casino-cards'
     },
     {
         icon: <BiMessageSquareDetail />,
         text: "포인트몰",
+        path:'/scam-casino-cards'
     },
     {
         icon: <FiSettings />,
         text: "이벤트",
+        path:'/scam-casino-cards'
     },
     {
         icon: <BiBook />,
         text: "고객센터",
+        path:'/scam-casino-cards'
     },
     {
         icon: <AiFillGoogleCircle />,
         text: "고객센터",
+        path:'/scam-casino-cards'
     },
 ];
 
