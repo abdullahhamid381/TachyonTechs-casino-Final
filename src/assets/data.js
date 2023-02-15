@@ -703,7 +703,7 @@ export const tableData = [
 export const list = [
     {
         icon: <AiOutlineHome />,
-        text: "먹튀사이트",
+        text: "메인 홈",
         path:'/'
     },
     {
