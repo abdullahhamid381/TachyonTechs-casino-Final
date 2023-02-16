@@ -1,66 +1,63 @@
-@import '../media.scss';
+@import "../media.scss";
 
 .casino-certification-first {
-    .title {
-        h1 {
-            font-size: 30px;
-            padding: 40px 0 0 0;
-            color: #A8B7C2;
-            font-weight: bolder;
-        }
+  .title {
+    h1 {
+      font-size: 30px;
+      padding: 40px 0 0 0;
+      color: #a8b7c2;
+      font-weight: bolder;
+    }
+  }
+
+  .casino-certification-first-section {
+    padding: 40px 0;
+    border-bottom: 1px solid #5f6b75;
+    display: flex;
+    align-items: center;
+
+    @include lg {
+      display: flex;
+      flex-direction: column;
     }
 
-    .casino-certification-first-section {
-        padding: 40px 0;
-        border-bottom: 1px solid #5f6b75;
-        display: flex;
-        align-items: center;
-
-        @include lg {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        h1 {
-            font-size: 22px;
-        }
-
-
-
-        img {
-            width: 30%;
-            border-radius: 8px;
-
-            @include lg {
-                width: 100%;
-            }
-        }
-
-        p {
-            color: #5f6b75;
-            padding: 10px 0 20px 0;
-            border-bottom: 1px solid #5f6b75;
-            font-size: 14px;
-        }
-
-        li {
-            color: #5f6b75;
-            padding: 5px 0;
-            font-size: 16px;
-        }
-
-        .casino-certification-first-section-data {
-            padding-left: 20px;
-            @include lg{
-                padding-left: 0;
-                padding-top: 20px;
-            }
-        }
+    h1 {
+      font-size: 22px;
     }
-    .pagination{
-        padding: 80px 0 160px 0;
-        display: flex;
-        justify-content: center;
+
+    img {
+      width: 30%;
+      border-radius: 8px;
+
+      @include lg {
+        width: 100%;
+      }
     }
+
+    p {
+      color: #5f6b75;
+      padding: 10px 0 20px 0;
+      border-bottom: 1px solid #5f6b75;
+      font-size: 12px;
+    }
+
+    li {
+      color: #5f6b75;
+      padding: 5px 0;
+      font-size: 16px;
+    }
+
+    .casino-certification-first-section-data {
+      padding-left: 20px;
+      @include lg {
+        padding-left: 0;
+        padding-top: 20px;
+      }
+    }
+  }
+  .pagination {
+    padding: 80px 0 160px 0;
+    display: flex;
+    justify-content: center;
+  }
 }
