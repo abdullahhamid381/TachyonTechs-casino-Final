@@ -2,8 +2,8 @@
 
 aside {
   background: #061b2a;
-  border-right: 2px solid #42525d;
-  border-left: 2px solid #42525d;
+  border-right: 1px solid #42525d;
+  border-left: 1px solid #42525d;
 
   @include lg {
     transition: 0.3s all;
@@ -18,8 +18,8 @@ aside {
   @include -lg {
     margin-top: unset !important;
   }
-  .top {
-    padding: 15px 10px;
+  > .top {
+    padding: 35px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,24 +38,49 @@ aside {
   .bottom {
     margin-top: 20px;
     padding: 20px 30px;
-    ul {
+    > ul {
       display: flex;
       flex-direction: column;
       margin: 0;
       list-style: none;
-      gap: 20px;
+      gap: 0px;
 
-      li {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        color: #c6c6c6;
-        cursor: pointer;
-        p {
+      > li {
+        padding: 10px 0;
+        .top {
+          display: flex;
+          align-items: center;
+          gap: 12px;
           color: #c6c6c6;
+          cursor: pointer;
+          display: grid;
+          grid-template-columns: 20px auto;
+          p {
+            color: #c6c6c6;
+            cursor: pointer;
+          }
+          svg {
+            fill: #c6c6c6;
+            cursor: pointer;
+          }
         }
-        svg {
-          fill: #c6c6c6;
+        .sub {
+          margin-left: 25px;
+          margin-top: 5px;
+          margin-top: 5px;
+          margin-top: 5px;
+          margin-top: 5px;
+          li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            padding: 8px 0;
+            font-size: 10px;
+            color: #c6c6c6;
+            opacity: 0.9;
+            font-weight: 300;
+          }
         }
       }
     }

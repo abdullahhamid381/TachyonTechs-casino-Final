@@ -23,6 +23,8 @@
       @include lg {
         position: unset !important;
         transform: unset;
+        transform: unset !important;
+        text-align: START !important;
       }
       h2 {
         font-weight: 300;

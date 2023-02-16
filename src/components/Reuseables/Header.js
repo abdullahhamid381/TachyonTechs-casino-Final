@@ -38,7 +38,11 @@ const Header = ({
                             <div className="menu">
                                 <HiBars3 onClick={() => setToggleLg(!toggleLg)} />
                             </div>
+<<<<<<< HEAD
                             <p>모든 카지노사이트를 검증하고, 카지노게임에 대한 <span style={{color:'white'}}>구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다</span>. </p>
+=======
+                            <p><span style={{ color: "#ebebeb" }}>모든 카지노사이트를 검증하고, 카지노게임에 대한</span> 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다. </p>
+>>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
                         </div>
                         <div className="end">
                             <div className="links">

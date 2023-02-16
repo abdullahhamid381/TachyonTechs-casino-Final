@@ -102,8 +102,6 @@ function App() {
             <Route path="/scam-form-one" element={<ScamFormV1 />} />
             <Route path="/scam-form-two" element={<ScamFormV2 />} />
 
-
-
             {/* game information 게임정보  */}
 
             <Route path="/game-information" element={<GameInformation />} />
@@ -199,10 +197,7 @@ function App() {
               path="/casino-certification-second"
               element={<CasinoCertificationTwoPage />}
             />
-            <Route
-              path="/"
-              element={<CasinoCertificationThirdPage />}
-            />
+            <Route path="/" element={<CasinoCertificationThirdPage />} />
           </Routes>
         </main>
       </Grid>
