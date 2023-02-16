@@ -46,7 +46,7 @@ const FormV2 = () => {
                         </div>
                     </div>
                     <div className="fourth">
-                        <p>제목</p>
+                        <p>상세내용</p>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div className="fifth">
@@ -58,14 +58,14 @@ const FormV2 = () => {
                             <div className="start">첨부파일</div>
                             <div className="grid">
                                 <input type="text" />
-                                <input type="submit" placeholder="첨부파일 선택" />
+                                <input type="submit" placeholder="첨부사진 위치" />
                             </div>
                         </div>
                         <div className="rest">
 
                             <div className="grid">
                                 <span>
-                                    첨부사진 위치
+                                상단위치
                                 </span>
                                 <div className="checkboxes">
 
@@ -74,7 +74,7 @@ const FormV2 = () => {
                                             icon={<RadioButtonUncheckedIcon />}
                                             checkedIcon={<RadioButtonCheckedIcon />}
                                         />
-                                        상단위치
+                                        하단위치
                                     </div>
                                     <div className="checkbox">
                                         <Checkbox
@@ -99,8 +99,8 @@ const FormV2 = () => {
                     <div className="btn__grid__">
 
                         <div className="end">
-                            <button>온라인</button>
-                            <button>라인온</button>
+                            <button>돌아가기</button>
+                            <button>작성완료</button>
                         </div>
                     </div>
                 </form>

@@ -27,14 +27,14 @@ const ScamCasinoCards = () => {
             </div>
             <div className="bar__">
                 <ul className="links">
-                    <li style={{color:"white"}}>먹튀</li>
-                    <li>먹튀</li>
-                    <li>먹튀</li>
+                    <li style={{color:"white"}}>전체</li>
+                    <li>확정</li>
+                    <li>확인중</li>
                 </ul>
                 <form className="end">
                     <div className="select">
                         <select name="" id="">
-                            <option value="검색해">검색해</option>
+                            <option value="검색해">날짜순</option>
                         </select>
                     </div>
                     <div className="search">
@@ -42,7 +42,7 @@ const ScamCasinoCards = () => {
                             type="search"
                             name=""
                             id=""
-                            placeholder="상품평을 검색해보세요"
+                            placeholder="검색"
                         />
                     </div>
                 </form>

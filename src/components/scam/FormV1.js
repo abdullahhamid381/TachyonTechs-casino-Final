@@ -26,14 +26,14 @@ const FormV1 = () => {
                         <p>업체정보</p>
                         <div className="grid">
                             <input type="text" placeholder="사이트명을 작성해주세요" />
-                            <input type="text" placeholder="먹튀금액을 작성해주세요" />
+                            <input type="text" placeholder="업체주소를 작성해주세요" />
                             <input type="text" placeholder="업체주소를 작성해주세요" />
                             <input type="text" placeholder="계좌정보를 작성해주세요" />
                         </div>
                     </div>
 
                     <div className="fourth">
-                        <p>제목</p>
+                        <p>상세내용</p>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div className="fifth">
@@ -52,7 +52,7 @@ const FormV1 = () => {
 
                             <div className="grid">
                                 <span>
-                                    첨부사진 위치
+                                첨부사진 위치
                                 </span>
                                 <div className="checkboxes">
 
@@ -86,8 +86,8 @@ const FormV1 = () => {
                     <div className="btn__grid__">
 
                         <div className="end">
-                            <button>온라인</button>
-                            <button>라인온</button>
+                            <button>돌아가기</button>
+                            <button>작성완료</button>
                         </div>
                     </div>
                 </form>
