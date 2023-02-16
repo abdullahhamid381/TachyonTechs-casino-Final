@@ -19,9 +19,9 @@ const ArticlesSlider = () => {
         <section className="article__slider">
             <div className="container">
                 <SmartHeading
-                    main={"에볼루션 코리안 스피드 바카라"}
+                    main={"카지노사이트 인증업체"}
                     sub={
-                        "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초"
+                        "모든 카지노사이트를 검증하고, 카지노게임에 대한 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다."
                     }
                 />
                 <Swiper
@@ -55,7 +55,7 @@ const ArticlesSlider = () => {
                                 <div className="details">
                                     <h3>{article.title}</h3>
                                     <p>{article.describe}</p>
-                                    <button>"회원가입_로</button>
+                                    <button>유니온 상세보기</button>
                                 </div>
                             </div>
                         </SwiperSlide>

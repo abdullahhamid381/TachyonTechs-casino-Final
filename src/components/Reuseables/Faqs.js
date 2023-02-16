@@ -30,14 +30,19 @@ export default function Accordian() {
                   className="accordian"
                 >
                   <Typography style={{ fontSize: "20px" }}>
+                    <span style={{
+                      background: "rgb(73, 73, 81)",
+                      padding: "10px",
+                      borderRadius: '80px',
+                      marginRight: '13px',
+                      fontSize: '22px',
+                    }}> Q </span>
                     {Accordianmap.title}
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography className="accordian">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse malesuada lacus ex, sit amet blandit leo
-                    lobortis eget.
+                  {Accordianmap.description}
                   </Typography>
                 </AccordionDetails>
               </Accordion>

@@ -10,24 +10,26 @@ const Footer = () => {
                     <div className="footer-title">
                         <h1>CASINO INSIDE.COM</h1>
                         <p>
-                            Head Office: 16, Pangyoyeok-ro 192beon-gil, Bundang-gu, Seongnam-si,Gyeonggi-do Republic Of Korea Australia Branch : Corner Pacific Highway and, Bryants Rd, Loganhomle QLD 4139 Australia Business Information : (c)SLOTBUFF 220-83-75493 | TEAM BUFF | (BC) ONLINE SERVICE | fater56599@gmail.com 
+                            Head Office : 16, Pangyoyeok-ro 192beon-gil, Bundang-gu, Seongnam-si, Gyeonggi-do Republic of Korea
+                            Australia Branch : Corner Pacific Highway and, Bryants Rd, Loganholme QLD 4129 Australia
+                            Business information : (c)SLOTBUFF 220-83-75493 | TEAM BUFF | (bc)online service | fater56599@gmail.com
                         </p>
                     </div>
 
-                    <h3 className="footer-title-two">Csino-inside-com,Sitemap</h3>
+                    <h3 className="footer-title-two">casino-inside.com, Sitemap</h3>
                     <div className="footer-button-parent">
                         {Footerdetail.map((footerbtn) => {
                             return (
-                               
-                                    <button>{footerbtn.btn}</button>
-                              
+
+                                <button>{footerbtn.btn}</button>
+
                             );
                         })}
                     </div>
-<h3 style={{margin:'20px 0'}}>프라마틱 Best 슬롯</h3>
+                    <h3 style={{ margin: '20px 0' }}>제휴사</h3>
 
-                    <Slider/>
-                    <h6 style={{margin:'20px 0'}}>COPYRIGHT SLOTBUFF(c).ALL RIGHTS RESERVED</h6>
+                    <Slider />
+                    <h6 style={{ margin: '20px 0' }}>COPYRIGHT(c)SLOTBUFF. ALL RIGHTS RESERVED.</h6>
                 </div>
             </footer>
         </Fragment>

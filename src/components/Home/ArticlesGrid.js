@@ -7,9 +7,9 @@ const ArticlesGrid = () => {
     return (
         <section className='articles__grid'>
             <SmartHeading
-                main={"에볼루션 코리안 스피드 바카라"}
+                main={"온라인카지노 게임하기"}
                 sub={
-                    "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초"
+                    "카지노 인사이드에서 제공하는 온라인카지노 & 슬롯 게임리스트입니다."
                 }
             />
             <div className="container">
@@ -29,7 +29,7 @@ const ArticlesGrid = () => {
                 </div>
                 <div className="btn__grid">
                     <button>
-                        "회원가입_로
+                    + 게임 더보기
                     </button>
                 </div>
             </div>

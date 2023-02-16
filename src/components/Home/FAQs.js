@@ -6,10 +6,10 @@ const FAQs = () => {
     return (
         <section className='faqs'>
             <div className="container">
+                <h1>자주 묻는 질문 Q&A</h1>
                 <div className="grid">
                     <div className="start">
-                        <h1>FAQs</h1>
-                        <Accordian />
+                                <Accordian />
                     </div>
                     <div className="end">
                         <div className="img">

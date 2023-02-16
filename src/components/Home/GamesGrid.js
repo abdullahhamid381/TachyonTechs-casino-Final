@@ -7,9 +7,9 @@ const GamesGrid = () => {
     return (
         <section className="games__grid">
             <SmartHeading
-                main={"에볼루션 코리안 스피드 바카라"}
+                main={"슬롯 무료체험"}
                 sub={
-                    "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초"
+                    "카지노 인사이드에서 제공하는 무료 슬롯 게임리스트입니다."
                 }
             />
             <div className="container">
@@ -32,11 +32,11 @@ const GamesGrid = () => {
                     })}
                 </div>
                 <div className="bottom__btns">
-                    <button className="active">가페이지</button>
-                    <button className="">가페이지</button>
-                    <button className="">가페이지</button>
-                    <button className="">가페이지</button>
-                    <button className="">가페이지</button>
+                    <button className="active">카지노 후기</button>
+                    <button className="">카지노 노하우</button>
+                    <button className="">갤러리</button>
+                    <button className="">자유게시판</button>
+               
                 </div>
             </div>
         </section>

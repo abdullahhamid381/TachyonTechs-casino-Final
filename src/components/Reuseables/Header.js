@@ -38,7 +38,7 @@ const Header = ({
                             <div className="menu">
                                 <HiBars3 onClick={() => setToggleLg(!toggleLg)} />
                             </div>
-                            <p>코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 </p>
+                            <p>모든 카지노사이트를 검증하고, 카지노게임에 대한 <span style={{color:'white'}}>구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다</span>. </p>
                         </div>
                         <div className="end">
                             <div className="links">
