@@ -1,10 +1,12 @@
-.swiper {
+.footer-container{
+  .swiper {
     width: 80%;
     margin: auto;
     height: 100%;
     margin-left: 0;
   }
   
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -25,4 +27,6 @@
   .swiper-android .swiper-slide, .swiper-wrapper {
     transform: translate3d(0px, 0, 0);
     margin-left: 20%;
+}
+
 }

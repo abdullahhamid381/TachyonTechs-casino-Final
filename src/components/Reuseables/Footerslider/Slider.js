@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function Slider() {
     return (
-        <Fragment>
+        <section className="footer-container">
 
             <Swiper
                 spaceBetween={30}
@@ -59,6 +59,6 @@ export default function Slider() {
             <SwiperSlide><img src={'./images/footerseventh.png'} alt="" /></SwiperSlide>
 
             </Swiper>
-        </Fragment>
+        </section>
     );
 }
