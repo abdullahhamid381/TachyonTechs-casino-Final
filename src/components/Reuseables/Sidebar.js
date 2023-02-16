@@ -1,13 +1,16 @@
 import React from "react";
-import logo from "../../assets/images/logo.PNG";
+import logo from "../../assets/images/home/logo02.png";
 import "../../scss/sidebar.scss";
 
 import { list } from "../../assets/data";
 import { useNavigate } from "react-router-dom";
 const Sidebar = ({ toggle, setToggle, setToggleLg, toggleLg }) => {
-    const navigate=useNavigate()
+    const navigate = useNavigate();
     return (
-        <aside style={{ marginTop: toggle ? "0" : "-500%" }} className={toggleLg ? "hide" : ""}>
+        <aside
+            style={{ marginTop: toggle ? "0" : "-500%" }}
+            className={toggleLg ? "hide" : ""}
+        >
             <div className="top">
                 <div className="logo">
                     <img src={logo} alt="" />
@@ -17,9 +20,22 @@ const Sidebar = ({ toggle, setToggle, setToggleLg, toggleLg }) => {
                 <ul>
                     {list.map((item, index) => {
                         return (
-                            <li key={index} onClick={()=> navigate(item.path)}>
-                                {item.icon}
-                                <p>{item.text}</p>
+                            <li key={index} onClick={() => navigate(item.path)}>
+                                <div className="top">
+                                    <img src={item.img} alt="" />
+                                    <p>{item.text}</p>
+                                </div>
+                                {
+                                    item.menu && <ul className="sub">
+                                        {
+                                            item.menu.map((elm, ind) => {
+                                                return <li onClick={() => navigate(elm.link)}>
+                                                    {elm.name}
+                                                </li>
+                                            })
+                                        }
+                                    </ul>
+                                }
                             </li>
                         );
                     })}
