@@ -27,7 +27,7 @@ const ScamCasinoCards = () => {
             </div>
             <div className="bar__">
                 <ul className="links">
-                    <li>먹튀</li>
+                    <li style={{color:"white"}}>먹튀</li>
                     <li>먹튀</li>
                     <li>먹튀</li>
                 </ul>

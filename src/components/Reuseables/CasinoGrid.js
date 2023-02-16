@@ -21,14 +21,14 @@ const CasinoGrid = ({ cards }) => {
                                 </figure>
                                 <div className="details">
                                     <h3>{card.title}</h3>
-                                    <h5>{card.address}</h5>
+                                    <h5>{card.date}</h5>
                                     <p>
                                         <div className="ico"><RxCrossCircled />먹튀사이트</div>
                                         <div>{card.value}</div>
                                     </p>
                                     <p>
                                         <div className="ico"><BsHouseDoor />먹튀사이트 주소</div>
-                                        <div>{card.address}</div>
+                                        <div>{card.date}</div>
                                     </p>
                                 </div>
                             </div>
