@@ -41,8 +41,6 @@ const Header = ({
                             <p><span style={{ color: "#ebebeb" }}>
                                 {/* 모든 카지노사이트를 검증하고, 카지노게임에 대한 */}
                             </span> 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다. </p>
-                            <p>모든 카지노사이트를 검증하고, 카지노게임에 대한 <span style={{ color: 'white' }}>구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다</span>. </p>
-                            <p><span style={{ color: "#ebebeb" }}>모든 카지노사이트를 검증하고, 카지노게임에 대한</span> 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다. </p>
                         </div>
                         <div className="end">
                             <div className="links">
