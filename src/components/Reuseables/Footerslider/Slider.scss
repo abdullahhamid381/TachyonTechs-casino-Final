@@ -22,4 +22,7 @@
     height: 100%;
     object-fit: cover;
   }
-  
+  .swiper-android .swiper-slide, .swiper-wrapper {
+    transform: translate3d(0px, 0, 0);
+    margin-left: 20%;
+}

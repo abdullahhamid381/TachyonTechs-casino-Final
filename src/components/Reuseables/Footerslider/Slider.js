@@ -45,6 +45,7 @@ export default function Slider() {
                 }}
 
                 navigation={true}
+                loop = {true}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
