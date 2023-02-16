@@ -135,7 +135,7 @@ export const articles = [
 
 export const articleslider = [
     {
-<<<<<<< HEAD
+
         img: './images/home/first.png',
         title: '국내 최다 게임을 보유한 온라인 카지노 사이트 유니온',
         describe: '유니온은 카지노 인사이드와 공식 제휴를 맺은 온라인 카지노  사이트입니다. 안전적이면서도 굉장히 많은 게임을 제공하며, 매일 다양한 이벤트가 준비되어 있습니다.'
@@ -163,8 +163,9 @@ export const articleslider = [
         img: './images/home/second.png',
         title: '국내 최다 게임을 보유한 온라인 카지노 사이트 유니온',
         describe: '유니온은 카지노 인사이드와 공식 제휴를 맺은 온라인 카지노 사이트입니다. 안전적이면서도 굉장히 많은 게임을 제공하며, 매일 다양한 이벤트가 준비되어 있습니다.'
+    },
+    {
 
-=======
         img: "./images/home/first.png",
         title: "에볼루션 코리안 스피드 바카라",
         describe:
@@ -193,13 +194,12 @@ export const articleslider = [
         title: "에볼루션 코리안 스피드 바카라",
         describe:
             "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초 마다 시작 되며 카드의 숫자 합이 9에 가까운 경우 승리 합니다",
->>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
+
     },
 ];
 
 export const articlesgrid = [
     {
-<<<<<<< HEAD
         img: './images/home/seventh.png',
         title: '온라인 카지노 시장 점유율 1위!',
         describe: '2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍'
@@ -245,8 +245,9 @@ export const articlesgrid = [
         img: './images/home/fourtheen.png',
         title: '온라인 카지노 시장 점유율 1위!',
         describe: '2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍'
+    },
+{
 
-=======
         img: "./images/home/seventh.png",
         title: "에볼루션 코리안 스피드 바카라",
         describe:
@@ -293,63 +294,13 @@ export const articlesgrid = [
         title: "에볼루션 코리안 스피드 바카라",
         describe:
             "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초 마다 시작 되며 카드의 숫자 합이 9에 가까운 경우 승리 합니다",
->>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
-    },
-];
-export const gamegrid = [
-    {
-        img: "./images/home/eighteen.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/20.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/21.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/22.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/23.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/eighteen.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/20.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/21.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/22.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
-    },
-    {
-        img: "./images/home/23.png",
-        title: "가페이지",
-        describe: "가페이지가페이지",
+
     },
 ];
 
-<<<<<<< HEAD
+
+export const gamegrid =[
+
     {
         img: './images/home/eighteen.png',
         title: '프라그마틱-스네익스 앤 래더즈 스넥스 아이즈',
@@ -392,9 +343,6 @@ export const gamegrid = [
         title: '프라그마틱-스네익스 앤 래더즈 스넥스 아이즈',
     },
 ]
-=======
-// EVENT SECTTION
->>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
 
 export const eventform = [
     {
@@ -1546,7 +1494,7 @@ export const CoupnProductImgtwo = [
 
 export const Accordiandata = [
     {
-<<<<<<< HEAD
+
         title: '파산선고 및 파산관재인 선임',
         description: '경기침체와 코로나19 위기 ···기업회생제도로 부활[나눔경제뉴스 창간 1주년 기획- 기업은 꽃길만 걷지 못한다. 건실한 기업들도 코로나19같…'
     },
@@ -1562,34 +1510,20 @@ export const Accordiandata = [
 
         title: '파산선고 및 파산관재인 선임',
         description: '경기침체와 코로나19 위기 ···기업회생제도로 부활[나눔경제뉴스 창간 1주년 기획- 기업은 꽃길만 걷지 못한다. 건실한 기업들도 코로나19같…'
-=======
-        title: "Accordion 1",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse",
     },
     {
         title: "Accordion 1",
         description:
             "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse",
     },
-    {
-        title: "Accordion 1",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse",
-    },
-    {
-        title: "Accordion 1",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse",
->>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
-    },
+
 ];
 export const Footerdetail = [
     {
         btn: "Home",
     },
     {
-<<<<<<< HEAD
+
         btn: '인증업체',
     },
     {
@@ -1631,48 +1565,6 @@ export const Footerdetail = [
     },
    
 ]
-
-=======
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-    {
-        btn: "Home",
-    },
-];
->>>>>>> 21539657ca84b0e3bc1ea99d66c795bd4edc1d1e
 
 export const casinoCards = [
     {
