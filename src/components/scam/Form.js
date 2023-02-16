@@ -29,7 +29,7 @@ const Form = () => {
                     <div className="head">
                         <h3>온라인카지노 먹튀(제목)</h3>
                         <div className="date">
-                            최고관리자 <span>2022.12.01</span>
+                            최고관리자 | <span>2022.12.01</span>
                         </div>
                     </div>
                     <form className="body">
