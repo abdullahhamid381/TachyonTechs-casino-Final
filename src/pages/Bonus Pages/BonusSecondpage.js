@@ -10,7 +10,7 @@ const BonusSecondpage = () => {
 
     return (
         <Fragment>
-           <Banner  image={'./images/attendence check/1.png'} sub={""} main={""}/>
+           <Banner  image={'./images/1.png'} sub={""} main={""}/>
             <BonusSecond/>
         </Fragment>
     );
