@@ -15,6 +15,7 @@ import { Pagination, Stack } from "@mui/material";
 /* IMPORTING IMAGES FROM THE FOLDER */
 import formimg from '../../assets/images/Cash Exchange Details/formimg.png'
 import rocket from '../../assets/images/Cash Exchange Details/rocket.png'
+import CouponSlider from "./CouponSlider";
 
 const CashExchangeDetail = () => {
     return (
@@ -291,7 +292,13 @@ const CashExchangeDetail = () => {
 
                 </div>
 
+
+
                 {/* <Slider/> */}
+
+                <div style={{padding:'40px 0 80px 0'}}>
+                    <CouponSlider/>
+                </div>
             </div>
         </Fragment>
     );
