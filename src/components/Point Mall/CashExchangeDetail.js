@@ -218,7 +218,7 @@ const CashExchangeDetail = () => {
                     <div className="filter">
                         <h1>Review</h1>
                         <div className="head">
-                            <h3>베스트순 | 최신순</h3>
+                            <span>베스트순 | <span style={{color:'#5E6B73'}}>최신순</span></span>
                             <div className="date">
                                 <select>
                                     <option value="">별점순</option>
