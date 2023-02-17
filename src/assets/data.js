@@ -252,7 +252,7 @@ export const articlesgrid = [
             "2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍",
     },
     {
-        img: "./images/home/ten.png",
+        img: "./images/home/seventh.png",
         title: "에볼루션 코리안 스피드 바카라",
         describe:
             "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초 마다 시작 되며 카드의 숫자 합이 9에 가까운 경우 승리 합니다",
