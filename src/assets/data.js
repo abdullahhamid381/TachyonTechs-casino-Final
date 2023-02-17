@@ -6,8 +6,8 @@ import {
     IoCallOutlin,
     AiOutlineSetting,
 } from "react-icons/ai";
-import { BsBasket, BsFillCalendar2MinusFill, BsFolder2 ,BsFillTelephoneFill} from "react-icons/bs";
-import { BiMessageSquareDetail, BiBook,BiDotsVerticalRounded } from "react-icons/bi";
+import { BsBasket, BsFillCalendar2MinusFill, BsFolder2, BsFillTelephoneFill } from "react-icons/bs";
+import { BiMessageSquareDetail, BiBook, BiDotsVerticalRounded } from "react-icons/bi";
 import { MdWifiTetheringErrorRounded } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
 
@@ -251,7 +251,7 @@ export const articlesgrid = [
         describe:
             "2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍",
     },
-    
+
 ];
 
 export const gamegrid = [
@@ -1211,12 +1211,13 @@ export const Cashexchangereview = [
         reviewstar: "./images/review star.png",
 
         reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요 가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요 제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
+            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요",
+        reviewpara1: '가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요',
+        reviewpara2: '제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요',
+        reviewpara3: ' 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.',
         reviewdate: "2023.01.01",
 
-        reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요  가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요  제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요  배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
-        reviewdate: "2023.01.01",
+
     },
     {
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
@@ -1229,10 +1230,10 @@ export const Cashexchangereview = [
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
         reviewstar: "./images/review star.png",
         reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요 가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요  제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
-        reviewdate: "2023.01.01",
-        reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요  가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요  제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요  배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
+            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요",
+        reviewpara1: '가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요',
+        reviewpara2: '제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요',
+        reviewpara3: ' 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.',
         reviewdate: "2023.01.01",
     },
     {
@@ -1254,9 +1255,6 @@ export const CoupnMAllDetailReview = [
             "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요 가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요 제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
         reviewdate: "2023.01.01",
 
-        reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요  가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요  제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요  배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
-        reviewdate: "2023.01.01",
     },
     {
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
@@ -1800,7 +1798,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <BsFillTelephoneFill/>,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1943,7 +1941,7 @@ export const casinocertificationthirdcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <BsFillTelephoneFill/>,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
@@ -1962,7 +1960,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: <BiDotsVerticalRounded/>,
+        img: <BiDotsVerticalRounded />,
     },
     {
         btn: "",
@@ -1971,7 +1969,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: <BiDotsVerticalRounded/>,
+        img: <BiDotsVerticalRounded />,
     },
     {
         btn: "",
@@ -1980,7 +1978,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: <BiDotsVerticalRounded/>,
+        img: <BiDotsVerticalRounded />,
     },
 ];
 
@@ -2057,131 +2055,131 @@ export const communityreview = [
 
 // FOOTER SLIDER
 
-export const footerslider=[
+export const footerslider = [
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
     {
-        img:'./images/footerfirst.png'
+        img: './images/footerfirst.png'
     },
     {
-        img:'./images/footersecond.png'
+        img: './images/footersecond.png'
     },
     {
-        img:'./images/footerthird.png'
+        img: './images/footerthird.png'
     },
     {
-        img:'./images/footerfourth.png'
+        img: './images/footerfourth.png'
     },
     {
-        img:'./images/footerfifth.png'
+        img: './images/footerfifth.png'
     },
     {
-        img:'./images/footersixth.png'
+        img: './images/footersixth.png'
     },
     {
-        img:'./images/footerseventh.png'
+        img: './images/footerseventh.png'
     },
 ]

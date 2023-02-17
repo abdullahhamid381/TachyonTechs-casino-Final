@@ -29,13 +29,13 @@
 
       h1 {
         background: #061b2a;
-        padding: 30px 20px;
+        padding: 20px 20px;
         border-bottom: 1px solid #42525d9c;
       }
 
       .first {
         display: flex;
-        padding: 20px 0;
+        padding: 10px 30px;
         justify-content: space-between;
 
         li {
@@ -186,6 +186,7 @@
             border-radius: 8px;
             color: #a8b7c2;
             margin-top: 40px;
+            width: 100%;
 
             @include lg {
               width: 100%;
@@ -287,7 +288,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 0;
+        padding: 30px 0;
 
         @include lg {
           display: flex;
