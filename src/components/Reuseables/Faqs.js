@@ -21,7 +21,7 @@ export default function Accordian() {
             <div className="accordian">
               <Accordion
                 className="accordian"
-                style={{ borderBottom: "1px solid gray", padding: "5px 0" }}
+                style={{ borderBottom: "1px solid #42525d9c", padding: "5px 0" }}
               >
                 <AccordionSummary
                   expandIcon={<ExpandMoreIcon />}

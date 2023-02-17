@@ -43,7 +43,7 @@
       margin-bottom: 20px;
 
       @include md {
-        border: 1px solid #334450;
+        border-bottom: 1px solid #42525d9c;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 0;
@@ -61,12 +61,12 @@
         }
 
         @include md {
-          border-right: 1px solid #334450;
+          border-bottom: 1px solid #42525d9c;
           padding: 20px 0;
           text-align: center;
 
           &:nth-child(4) {
-            border-right: 1px solid #334450;
+            border-bottom: 1px solid #42525d9c;
           }
         }
       }
@@ -237,11 +237,11 @@
       margin-top: 50px;
 
       .bottom__heading {
-        border-bottom: 1px solid #30424f;
+        border-bottom: 1px solid #42525d9c;
         display: flex;
 
         h2 {
-          border-bottom: 1px solid #9ea1a4;
+          border-bottom: 1px solid #42525d9c;
           width: max-content;
           padding: 15px 10px;
           text-align: center;
@@ -258,7 +258,7 @@
           width: 100%;
           outline: none;
           padding: 30px 20px;
-          border: 1px solid #30424f;
+          border-bottom: 1px solid #42525d9c;
           border-radius: 12px;
         }
 
@@ -286,7 +286,7 @@
         width: 100%;
         outline: none;
         padding: 30px 20px;
-        border: 1px solid #30424f;
+        border-bottom: 1px solid #42525d9c;
         border-radius: 12px;
       }
 
@@ -305,13 +305,13 @@
 
     .records {
       margin-top: 40px;
-      border-bottom: 1px solid #30424f;
+      border-bottom: 1px solid #42525d9c;
 
       .record {
         display: flex;
         justify-content: space-between;
         padding: 25px;
-        border-top: 1px solid #30424f;
+        border-bottom: 1px solid #42525d9c;
         align-items: center;
 
         .start {

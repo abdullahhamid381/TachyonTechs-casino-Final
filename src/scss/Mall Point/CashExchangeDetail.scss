@@ -25,12 +25,12 @@
     }
 
     .first-exchange-table {
-      border: 1px solid gray;
+      border: 1px solid #42525d9c;
 
       h1 {
         background: #061b2a;
         padding: 30px 20px;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #42525d9c;
       }
 
       .first {
@@ -54,7 +54,7 @@
 
   .exchange-section-two {
     .exchange-section-two-title {
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid #42525d9c;
 
       h1 {
         padding: 100px 0 20px 0;
@@ -81,8 +81,8 @@
         display: grid;
         grid-template-columns: 250px auto;
         align-items: center;
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
+        border-top: 1px solid #42525d9c;
+        border-bottom: 1px solid #42525d9c;
 
         @include lg {
           display: grid;
@@ -99,7 +99,7 @@
         }
 
         p {
-          border-left: 1px solid gray;
+          border-left: 1px solid #42525d9c;
           padding: 28px 0 28px 80px;
 
           @include lg {
@@ -142,7 +142,7 @@
 
     .exchange-section-four-form {
       .form-intro {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #42525d9c;
 
         .span-first {
           font-size: 25px;
@@ -170,7 +170,7 @@
         select {
           background: none;
           width: 100%;
-          border: 1px solid gray;
+          border: 1px solid #42525d9c;
           padding: 10px 0 10px 0;
           outline: none;
           border-radius: 8px;
@@ -181,7 +181,7 @@
         .form-button {
           button {
             padding: 15px 30px;
-            border: 1px solid gray;
+            border: 1px solid #42525d9c;
             transition: 0.3s;
             border-radius: 8px;
             color: #a8b7c2;
@@ -281,7 +281,7 @@
 
     .review-excahnage-section-five {
       padding: 80px 0;
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid #42525d9c;
 
       .review-title-parent {
         display: flex;

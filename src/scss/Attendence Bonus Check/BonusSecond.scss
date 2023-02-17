@@ -11,7 +11,7 @@
     .bonus-second-title {
       font-size: 36px;
       padding: 30px 0;
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid #42525d9c;
       color: #a7b6c1;
     }
 
@@ -41,8 +41,8 @@
         display: grid;
         grid-template-columns: 130px auto;
         align-items: center;
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
+        border-top: 1px solid #42525d9c;
+        border-bottom: 1px solid #42525d9c;
 
         button {
           width: 100%;
@@ -53,7 +53,7 @@
         }
 
         span {
-          border-left: 1px solid gray;
+          border-left: 1px solid #42525d9c;
           padding: 28px;
           color: #4a5660;
           font-weight: bold;
@@ -73,8 +73,8 @@
       .year {
         text-align: center;
         padding: 30px 0;
-        border-top: 1px solid gray;
-        border-bottom: 1px solid gray;
+        border-top: 1px solid #42525d9c;
+        border-bottom: 1px solid #42525d9c;
         font-size: 24px;
         margin-bottom: 60px;
         color: #a7b6c1;
@@ -95,7 +95,7 @@
           width: 100%;
           padding: 20px 0;
           height: 125px;
-          border: 1px solid gray;
+          border: 1px solid #42525d9c;
 
           h6 {
             color: #a7b6c1;
@@ -149,7 +149,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 40px 0;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #42525d9c;
 
         .level-number {
           display: grid;
