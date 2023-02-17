@@ -1,7 +1,7 @@
 @import "./media.scss";
 
 header {
-  border-bottom: 1px solid #42525d;
+  border-bottom: 1px solid #42525d9c;
   padding: 10px 0;
   position: relative;
   z-index: 3;
@@ -37,6 +37,11 @@ header {
         }
         > p {
           color: #868f95;
+          line-height: 1.4;
+          font-size: 12px;
+          span {
+            font-size: 13px;
+          }
           @include md {
             width: 100%;
           }

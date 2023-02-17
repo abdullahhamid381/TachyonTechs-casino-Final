@@ -12,16 +12,16 @@ const Sidebar = ({ toggle, setToggle, setToggleLg, toggleLg }) => {
             className={toggleLg ? "hide" : ""}
         >
             <div className="top">
-                <div className="logo">
-                    <img src={logo} alt="" />
+                <div className="logo" >
+                    <img src={logo} onClick={() => navigate('/')} alt="" />
                 </div>{" "}
             </div>
             <div className="bottom">
                 <ul>
                     {list.map((item, index) => {
                         return (
-                            <li key={index} onClick={() => navigate(item.path)}>
-                                <div className="top">
+                            <li key={index} >
+                                <div className="top" onClick={() => navigate(item.path)}>
                                     <img src={item.img} alt="" />
                                     <p>{item.text}</p>
                                 </div>

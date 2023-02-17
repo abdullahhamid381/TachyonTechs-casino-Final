@@ -27,7 +27,6 @@ const Header = ({
         } else {
             setScroll(false);
         }
-
     });
     return (
         <Fragment>
@@ -39,16 +38,13 @@ const Header = ({
                                 <HiBars3 onClick={() => setToggleLg(!toggleLg)} />
                             </div>
 
-
-                            <p>모든 카지노사이트를 검증하고, 카지노게임에 대한 <span style={{color:'white'}}>구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다</span>. </p>
-
-                            <p><span style={{ color: "#ebebeb" }}>모든 카지노사이트를 검증하고, 카지노게임에 대한</span> 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다. </p>
-
-
-                            <p><span style={{ color: "#ebebeb" }}>
-                                {/* 모든 카지노사이트를 검증하고, 카지노게임에 대한 */}
-                            </span> 구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다. </p>
-
+                            <p>
+                                모든 카지노사이트를 검증하고, 카지노게임에 대한{" "}
+                                <span style={{ color: "#ebebeb" }}>
+                                    구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다
+                                </span>
+                                .{" "}
+                            </p>
                         </div>
                         <div className="end">
                             <div className="links">
@@ -81,13 +77,25 @@ const Header = ({
             </header>
             <div className="bottom__nav">
                 <div className="menu">
-                    <img
-                        src={show ? cross : bars}
-                        onClick={() => {
-                            setShow(!show);
-                        }}
-                        alt=""
-                    />
+                    {toggle ? (
+                        <img
+                            src={cross}
+                            onClick={() => {
+                                setToggle(!toggle);
+                                setShow(false);
+                            }}
+                            alt=""
+                        />
+                    ) : (
+                        <img
+                            src={bars}
+                            onClick={() => {
+                                setToggle(!toggle);
+                                setShow(false);
+                            }}
+                            alt=""
+                        />
+                    )}
                     {/* <HiMenu /> */}
                 </div>
                 <div className="logo">

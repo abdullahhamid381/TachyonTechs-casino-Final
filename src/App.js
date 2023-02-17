@@ -130,7 +130,7 @@ function App() {
             <Route path="/sign-up-one" element={<Signupmembertwo />} />
             <Route path="/sign-up-two" element={<Signupmember />} />
             {/* casino games  카지노게임*/}
-            <Route path="/games" element={<Games />} />
+            <Route path="/casino-games" element={<Games />} />
             {/* bonus attendance check 보너스,출석체크  */}
             <Route path="/bonus-request-form" element={<BonusFirstpage />} />
             <Route path="/attendence-check" element={<BonusSecondpage />} />
@@ -197,7 +197,7 @@ function App() {
               path="/casino-certification-second"
               element={<CasinoCertificationTwoPage />}
             />
-            <Route path="/" element={<CasinoCertificationThirdPage />} />
+            <Route path="/casino-certification-third" element={<CasinoCertificationThirdPage />} />
           </Routes>
         </main>
       </Grid>

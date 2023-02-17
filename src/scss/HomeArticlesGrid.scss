@@ -25,13 +25,13 @@
 
           h3 {
             font-weight: 500;
-            font-size: 16px;
+            font-size: 14px;
           }
 
           p {
             color: #758087;
             font-size: 12px;
-            list-style: 1.5;
+            line-height: 1.6;
             margin-top: 10px;
           }
         }
@@ -46,9 +46,10 @@
         padding: 14px 70px;
         width: max-content;
         border-radius: 100px;
-        border: 1px solid #ccc;
+        border: 1px solid #bcbcbc;
         background: transparent;
         margin-top: 12px;
+        color: #bcbcbc;
       }
     }
   }
