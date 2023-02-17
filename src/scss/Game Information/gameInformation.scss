@@ -75,7 +75,7 @@
         padding: 8px 10px;
         align-items: center;
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         border-radius: 10px;
         @include lg {
           flex-direction: column;

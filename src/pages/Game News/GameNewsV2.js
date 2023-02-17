@@ -12,7 +12,7 @@ const GameNewsV2 = () => {
         <section className='game__information'>
             <Banner image={img} main={"게임뉴스"} sub={"카지노 게임뉴스"} />
             <div className="heading">
-                <h2>먹튀사이트</h2>
+                <h2>게임뉴스</h2>
                 <div className="icons">
 
                     <span>
@@ -24,12 +24,12 @@ const GameNewsV2 = () => {
             <div className="grid">
                 <div className="filter">
                     <div className="head">
-
+                    <span style={{ color: 'white', fontSize: '16px', marginLeft: '20px' }}>베스트순  <span style={{ color: '#868f95', fontSize: '16px' }}> | 최신순</span></span>
                         <div className="date">
                             <select>
                                 <option value="">날짜순</option>
                             </select>
-                            <input type="text" placeholder="상품평을 검색해보세요" />
+                            <input type="text" placeholder="검색" />
                         </div>
                     </div>
                 </div>
