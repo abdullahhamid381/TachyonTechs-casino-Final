@@ -35,7 +35,7 @@ const CashExchangeDetail = () => {
                     <div className="table-parent">
                         <div className="first-exchange-table">
                             <h1>글쓰기</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>자유게시판</li>
                                 <span>500p</span>
                             </div>
@@ -51,7 +51,7 @@ const CashExchangeDetail = () => {
                                 <li>카지노후기</li>
                                 <span>2,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>카지노 노하우</li>
                                 <span>2,00p</span>
                             </div>
@@ -59,7 +59,7 @@ const CashExchangeDetail = () => {
 
                         <div className="first-exchange-table">
                             <h1>출석체크</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>당일출석체크</li>
                                 <span>1,500p</span>
                             </div>
@@ -89,7 +89,7 @@ const CashExchangeDetail = () => {
                                 </li>
                                 <span>12,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}} >
                                 <li>누적 28일</li>
                                 <span>25,000p</span>
                             </div>
@@ -97,7 +97,7 @@ const CashExchangeDetail = () => {
 
                         <div className="first-exchange-table">
                             <h1>기타</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>가입인사(1회성)</li>
                                 <span>3,500p</span>
                             </div>
@@ -105,7 +105,7 @@ const CashExchangeDetail = () => {
                                 <li>모든댓글</li>
                                 <span>200p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>인증업체 댓글(중복X)
                                 </li>
                                 <span>1000p</span>
@@ -202,8 +202,8 @@ const CashExchangeDetail = () => {
                                 </span>
                             </span>
 
-                            <div className="form-button">
-                                <button>선물하기</button>
+                            <div className="form-button" style={{display:'flex'}}>
+                                <button style={{background:'none',border:'2px solid #7C868C'}}>선물하기</button>
                                 <button className="active">바로구매</button>
                             </div>
                         </div>
@@ -244,8 +244,11 @@ const CashExchangeDetail = () => {
                                     </span>
                                 </div>
 
-                                <div className="review-para">
+                                <div className="review-para" style={{lineHeight:'22px'}}>
                                     <p>{reviewmap.reviewpara}</p>
+                                    <p>{reviewmap.reviewpara1}</p>
+                                    <p>{reviewmap.reviewpara2}</p>
+                                    <p>{reviewmap.reviewpara3}</p>
 
                                     <h6>{reviewmap.reviewdate}</h6>
                                 </div>
@@ -265,9 +268,9 @@ const CashExchangeDetail = () => {
                             </Stack>
                         </div>
 
-                        <div style={{ display: 'flex', float: 'right', alignItems: 'center' }}>
+                        <div style={{ display: 'flex', float: 'right', alignItems: 'center',marginTop:'-25px' }}>
                             <h6>목록보기</h6>
-                            <img src="./images/togle.png" alt="" style={{ width: '25%', marginLeft: '10px' }} />
+                            <img src="./images/home/ham.svg" alt="" style={{ width: '25%', marginLeft: '10px' }} />
                         </div>
                     </div>
                 </div>
