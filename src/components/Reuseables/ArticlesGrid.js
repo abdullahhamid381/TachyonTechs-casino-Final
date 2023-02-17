@@ -56,6 +56,7 @@ const ArticlesGrid = ({
                                     {date && article.date && (
                                         <div className={!border ? "bottom" : "bottom border"} >
                                             <p>
+                                                <img src="./images/leveltwo.png" alt="" style={{width:'5%'}} />
                                                 <span>관리자</span> <span>{article.date}</span>
                                             </p>
                                             <p>
