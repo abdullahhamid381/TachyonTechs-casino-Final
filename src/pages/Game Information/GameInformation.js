@@ -26,7 +26,7 @@ const GameInformation = () => {
                             <select>
                                 <option value="">게임이름</option>
                             </select>
-                            <input type="text" placeholder="검색어를 입력하세요" />
+                            <input type="text" placeholder="검색" />
                         </div>
                     </div>
                 </div>

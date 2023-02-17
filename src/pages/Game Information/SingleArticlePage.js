@@ -21,7 +21,7 @@ const SingleArticleInfo = () => {
         <section className="single__article__main" >
             <Banner image={img} main={"게임정보"} sub={"카지노게임정보"} />
             <div className="heading">
-                <h2>먹튀사이트</h2>
+                <h2>게임정보</h2>
                 <div className="icons">
                     <div className="icons">
                         <span>
@@ -44,7 +44,7 @@ const SingleArticleInfo = () => {
                             <select>
                                 <option value="">게임이름</option>
                             </select>
-                            <input type="text" placeholder="검색어를 입력하세요" />
+                            <input type="text" placeholder="검색" />
                         </div>
                     </div>
                 </div>
