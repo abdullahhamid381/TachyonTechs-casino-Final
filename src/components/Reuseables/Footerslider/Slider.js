@@ -11,6 +11,7 @@ import '../Footerslider/Slider.scss'
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { footerslider } from "../../../assets/data";
 
 export default function Slider() {
     return (
@@ -27,7 +28,7 @@ export default function Slider() {
               /*   pagination={{
                     clickable: true,
                 }} */
-
+               
                 breakpoints={{
                     0: {
                         slidesPerView: 3,
@@ -45,18 +46,21 @@ export default function Slider() {
                 }}
 
                 navigation={true}
-                loop = {true}
+               
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
             >
 
-            <SwiperSlide><img src={'./images/footerfirst.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footersecond.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footerthird.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footerfourth.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footerfifth.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footersixth.png'} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={'./images/footerseventh.png'} alt="" /></SwiperSlide>
+           {
+            footerslider.map((map)=>{
+                return(
+                    <SwiperSlide><img src={map.img} alt="" /></SwiperSlide>
+                )
+            })
+           }
+           
+           
+          
 
             </Swiper>
         </section>
