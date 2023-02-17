@@ -3,7 +3,7 @@ import { Menu } from "@mui/material";
 import "../../scss/header.scss";
 import { HiBars3 } from "react-icons/hi2";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.PNG";
+import logo from "../../assets/images/home/logo02.png";
 import { RxPerson } from "react-icons/rx";
 import { VscBell } from "react-icons/vsc";
 import WidgetsBar from "./WidgetsBar";

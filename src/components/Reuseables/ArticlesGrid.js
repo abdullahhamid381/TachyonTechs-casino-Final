@@ -38,7 +38,7 @@ const ArticlesGrid = ({
                                             display: "grid",
                                             gap: "15px",
                                             gridTemplateColumns: threeCol ? "1fr 2fr" : "1fr 1fr",
-                                            borderBottom: "1px solid #4f5c65",
+                                            borderBottom: "1px solid #42525d9c",
                                             padding: "35px 0",
                                         }
                                         : null
@@ -56,7 +56,7 @@ const ArticlesGrid = ({
                                     {date && article.date && (
                                         <div className={!border ? "bottom" : "bottom border"} >
                                             <p>
-                                                <img src="./images/leveltwo.png" alt="" style={{width:'5%'}} />
+                                                <img src="./images/leveltwo.png" alt="" style={{ width: '5%' }} />
                                                 <span>관리자</span> <span>{article.date}</span>
                                             </p>
                                             <p>

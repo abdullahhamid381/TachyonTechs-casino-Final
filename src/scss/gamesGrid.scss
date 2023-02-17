@@ -37,7 +37,7 @@
           h4 {
             color: #758087;
             font-size: 12px;
-            list-style: 1.5;
+            line-height: 1.5;
             margin-top: 10px;
             font-weight: 500;
           }
@@ -53,6 +53,8 @@
         background: #2d404b;
         padding: 15px 50px;
         border-radius: 100px;
+        font-size: 12px;
+        color: #eee;
       }
       button.active {
         background: #061b2a;
