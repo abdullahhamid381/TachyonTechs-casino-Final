@@ -93,7 +93,8 @@
 
         h2 {
           background: #061b2a;
-          padding: 20px 40px 20px 40px;
+          padding: 21px 40px 20px 40px;
+          font-size: 16px;
 
           @include lg {
             padding: 20px 40px 20px 10px;
@@ -102,7 +103,7 @@
 
         p {
           border-left: 1px solid #42525d9c;
-          padding: 28px 0 28px 80px;
+          padding: 20px 0 20px 80px;
 
           @include lg {
             border-left: none;
@@ -119,8 +120,8 @@
     padding: 20px 0 200px 0;
 
     li {
-      padding: 5px 0;
-      color: #a8b7c2;
+      padding: 10px 0 0px 0;
+      line-height: 22px;
     }
   }
 

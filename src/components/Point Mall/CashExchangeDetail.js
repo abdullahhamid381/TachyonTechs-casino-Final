@@ -248,7 +248,7 @@ const CashExchangeDetail = () => {
                                     <p>{reviewmap.reviewpara}</p>
                                     <p>{reviewmap.reviewpara1}</p>
                                     <p>{reviewmap.reviewpara2}</p>
-                                    <p>{reviewmap.reviewpara3}</p>
+                                    <p style={{paddingTop:'20px'}}>{reviewmap.reviewpara3}</p>
 
                                     <h6>{reviewmap.reviewdate}</h6>
                                 </div>
@@ -281,7 +281,7 @@ const CashExchangeDetail = () => {
                 <div className="exchange-section-six">
                     <div className="filter">
                         <div className="head">
-                            <h3>후기를 작성해주세요</h3>
+                            <h3 style={{color:"#535d64"}}>후기를 작성해주세요</h3>
                             <div className="date">
                                 <button>등록</button>
                             </div>

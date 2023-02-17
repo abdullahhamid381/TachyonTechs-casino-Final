@@ -1223,7 +1223,8 @@ export const Cashexchangereview = [
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
         reviewstar: "./images/review star.png",
         reviewpara:
-            "굿~~^^ 온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요",
+            "굿~~^^ ",
+            reviewpara1: '온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요',
         reviewdate: "2023.01.02",
     },
     {
@@ -1240,7 +1241,8 @@ export const Cashexchangereview = [
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
         reviewstar: "./images/review star.png",
         reviewpara:
-            "굿~~^^ 온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요",
+        "굿~~^^ ",
+        reviewpara1: '온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요',
         reviewdate: "2023.01.02",
     },
 ];
