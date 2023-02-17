@@ -6,10 +6,11 @@ import {
     IoCallOutlin,
     AiOutlineSetting,
 } from "react-icons/ai";
-import { BsBasket, BsFillCalendar2MinusFill, BsFolder2 } from "react-icons/bs";
-import { BiMessageSquareDetail, BiBook } from "react-icons/bi";
+import { BsBasket, BsFillCalendar2MinusFill, BsFolder2 ,BsFillTelephoneFill} from "react-icons/bs";
+import { BiMessageSquareDetail, BiBook,BiDotsVerticalRounded } from "react-icons/bi";
 import { MdWifiTetheringErrorRounded } from "react-icons/md";
 import { FiSettings } from "react-icons/fi";
+
 import card1 from "../assets/images/Game Information/1.png";
 import articleImg1 from "../assets/images/Game Information/1.png";
 import articleImg2 from "../assets/images/Game Information/2.png";
@@ -73,7 +74,7 @@ export const articles = [
             "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초 마다 시작 되며 카드의 숫자 합이 9에 가까운 경우 승리 합니다",
         img: articleImg2,
         views: "101",
-        
+
         date: "2023.01.07",
     },
     {
@@ -203,7 +204,7 @@ export const articleslider = [
 
 export const articlesgrid = [
     {
-        img: "./images/home/seventh.png",
+        img: "./images/home/fourtheen.png",
         title: "온라인 카지노 시장 점유율 1위!",
         describe:
             "2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍",
@@ -251,7 +252,7 @@ export const articlesgrid = [
             "2007년부터 온라인 카지노 시장을 개척해온 점유율 1위 에볼루션 게이밍",
     },
     {
-        img: "./images/home/seventh.png",
+        img: "./images/home/ten.png",
         title: "에볼루션 코리안 스피드 바카라",
         describe:
             "코리안 스피드 바카라는 온라인카지노 에볼루션 게이밍의 게임이며 딜러는 한국인 이며 13초 마다 시작 되며 카드의 숫자 합이 9에 가까운 경우 승리 합니다",
@@ -1726,7 +1727,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1750,7 +1751,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1774,7 +1775,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1798,7 +1799,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1822,7 +1823,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1846,7 +1847,7 @@ export const casinocertificationsecondcards = [
         homeicon: <AiOutlineHome />,
         hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill/>,
         celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicon: <AiOutlineSetting />,
@@ -1891,13 +1892,13 @@ export const casinocertificationthirdcards = [
         titlefive:
             "이벤트 내용 혹은 제목이 들어가는 곳 입니다.이벤트 내용 혹은 제목이 들어가는 곳",
         homeicon: <AiOutlineHome />,
-        hometitle: "사이트주소",
+        hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
-        celltitle: "연락처",
+        cellicon: <BsFillTelephoneFill />,
+        celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
-        settingtitle: "사이트정보",
+        settingtitle: " 사이트정보",
         settinginfo: "정보가 들어가는 곳 입니다.",
     },
     {
@@ -1915,9 +1916,9 @@ export const casinocertificationthirdcards = [
         titlefive:
             "이벤트 내용 혹은 제목이 들어가는 곳 입니다.이벤트 내용 혹은 제목이 들어가는 곳",
         homeicon: <AiOutlineHome />,
-        hometitle: "사이트주소",
+        hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
+        cellicon: <BsFillTelephoneFill />,
         celltitle: "연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
@@ -1939,13 +1940,13 @@ export const casinocertificationthirdcards = [
         titlefive:
             "이벤트 내용 혹은 제목이 들어가는 곳 입니다.이벤트 내용 혹은 제목이 들어가는 곳",
         homeicon: <AiOutlineHome />,
-        hometitle: "사이트주소",
+        hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
-        celltitle: "연락처",
+        cellicon: <BsFillTelephoneFill />,
+        celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
-        settingtitle: "사이트정보",
+        settingtitle: " 사이트정보",
         settinginfo: "정보가 들어가는 곳 입니다.",
     },
     {
@@ -1963,13 +1964,13 @@ export const casinocertificationthirdcards = [
         titlefive:
             "이벤트 내용 혹은 제목이 들어가는 곳 입니다.이벤트 내용 혹은 제목이 들어가는 곳",
         homeicon: <AiOutlineHome />,
-        hometitle: "사이트주소",
+        hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
-        celltitle: "연락처",
+        cellicon: <BsFillTelephoneFill />,
+        celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
-        settingtitle: "사이트정보",
+        settingtitle: " 사이트정보",
         settinginfo: "정보가 들어가는 곳 입니다.",
     },
     {
@@ -1987,10 +1988,10 @@ export const casinocertificationthirdcards = [
         titlefive:
             "이벤트 내용 혹은 제목이 들어가는 곳 입니다.이벤트 내용 혹은 제목이 들어가는 곳",
         homeicon: <AiOutlineHome />,
-        hometitle: "사이트주소",
+        hometitle: " 사이트주소",
         homeweb: "www.naver.com",
-        cellicon: <AiOutlineHome />,
-        celltitle: "연락처",
+        cellicon: <BsFillTelephoneFill/>,
+        celltitle: " 연락처",
         cellno: "010.0123.4567",
         settingicons: <AiOutlineSetting />,
         settingtitle: "사이트정보",
@@ -2008,7 +2009,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: "./images/togle.png",
+        img: <BiDotsVerticalRounded/>,
     },
     {
         btn: "",
@@ -2017,7 +2018,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: "./images/togle.png",
+        img: <BiDotsVerticalRounded/>,
     },
     {
         btn: "",
@@ -2026,7 +2027,7 @@ export const CommentThird = [
         date: "2023.01.11",
         describe:
             "댓글 내용이 들어가는 곳 입니다. 댓글 내용이 들어갑니다. 댓글 내용이 들어갑니다~ 댓글 내용이 들어가는 곳 입니다.댓글 내용이 들어갑니다.",
-        img: "./images/togle.png",
+        img: <BiDotsVerticalRounded/>,
     },
 ];
 

@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 
-import Headerimg from '../../assets/images/header.PNG'
+
 
 
 
@@ -10,7 +10,7 @@ const BonusSecondpage = () => {
 
     return (
         <Fragment>
-           <Banner  image={Headerimg} sub={""} main={""}/>
+           <Banner  image={'./images/attendence check/1.png'} sub={""} main={""}/>
             <BonusSecond/>
         </Fragment>
     );

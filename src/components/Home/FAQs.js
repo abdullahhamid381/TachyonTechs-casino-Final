@@ -13,7 +13,7 @@ const FAQs = () => {
                     </div>
                     <div className="end">
                         <div className="img">
-                            <img src={img} alt="" />
+                            <img src={'./images/home/acc.png'} alt="" />
                         </div>
                     </div>
                 </div>

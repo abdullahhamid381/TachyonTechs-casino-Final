@@ -29,19 +29,19 @@ export default function Accordian() {
                   id="panel1a-header"
                   className="accordian"
                 >
-                  <Typography style={{ fontSize: "20px" }}>
+                  <Typography style={{ fontSize: "14px !important" }}>
                     <span style={{
                       background: "rgb(73, 73, 81)",
                       padding: "10px",
                       borderRadius: '80px',
                       marginRight: '13px',
-                      fontSize: '22px',
+                      fontSize: '18px',
                     }}> Q </span>
                     {Accordianmap.title}
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Typography className="accordian">
+                  <Typography className="accordian" style={{paddingLeft:"54px", marginTop: "-10px",opacity:'0.8'}}>
                   {Accordianmap.description}
                   </Typography>
                 </AccordionDetails>

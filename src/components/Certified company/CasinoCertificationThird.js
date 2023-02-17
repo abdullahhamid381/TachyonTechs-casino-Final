@@ -7,6 +7,8 @@ import fourth from "../../assets/images/Casino Certification/fourth.png";
 import fifth from "../../assets/images/Casino Certification/fifth.png";
 import sixth from "../../assets/images/Casino Certification/sixth.png";
 import { casinocertificationthirdcards } from "../../assets/data";
+import { BiMessageSquareDetail, BiBook,BiDotsVerticalRounded } from "react-icons/bi";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { Pagination, Stack } from "@mui/material";
 import {
     AiOutlineHome,
@@ -74,7 +76,7 @@ const CasinoCertificationThird = () => {
                         <div className="icons-parent">
                             <span className="icon">
                                 {" "}
-                                <AiOutlineHome />{" "}
+                                <BsFillTelephoneFill />{" "}
                             </span>
                             <span>연락처</span>
                             <h6>010.0123.4567</h6>
@@ -118,15 +120,16 @@ const CasinoCertificationThird = () => {
                                 <div className="comment-parent">
                                     <div>
                                         <button></button>
+                                        <img src="./images/levelthree.png" alt="" />
                                         <span className="level">{level}</span> <br />
                                         <div className="detail">
                                             <span className="name"> {name}</span>
-                                            <span className="date">{date}</span>
+                                            <span className="date" style={{marginLeft:'10px'}}>{date}</span>
                                             <p className="describe">{describe}</p>
                                         </div>
                                     </div>
                                     <div>
-                                        <img src={img} alt="" />
+                                        <span style={{fontSize:"30px"}} className='dotted'><BiDotsVerticalRounded/></span>
                                     </div>
                                 </div>
                             )

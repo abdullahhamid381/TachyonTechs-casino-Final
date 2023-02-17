@@ -136,7 +136,7 @@
       border-bottom: 1px solid rgba(128, 128, 128, 0.478);
       @include lg {
         display: flex;
-        flex-direction: column;
+       
       }
       button {
         padding: 30px 30px;
@@ -166,9 +166,11 @@
       }
       img {
         width: 30%;
+        width: 2%;
+        margin-left: 10px;
         @include lg {
-          width: 30%;
-          margin-right: 40px;
+          width: 5%;
+       
           margin-top: 10px;
         }
       }
