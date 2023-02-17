@@ -74,9 +74,8 @@
 
     .exchange-section-two-table {
       h1 {
-        padding: 30px 0;
-
-        font-size: 20px;
+        padding: 25px 0;
+        font-size: 12px;
       }
 
       .exchange-section-two-table-parent {
@@ -94,7 +93,8 @@
         h2 {
           background: #061b2a;
           padding: 21px 40px 20px 40px;
-          font-size: 16px;
+          font-size: 14px;
+          color:  #a7b6c1;
 
           @include lg {
             padding: 20px 40px 20px 10px;
@@ -104,6 +104,7 @@
         p {
           border-left: 1px solid #42525d9c;
           padding: 20px 0 20px 80px;
+          opacity: 0.9;
 
           @include lg {
             border-left: none;
@@ -123,6 +124,7 @@
       padding: 10px 0 0px 0;
       opacity: 0.9;
       line-height: 22px;
+      color: #a7b6c1;
     }
   }
 
@@ -175,7 +177,7 @@
           background: none;
           width: 100%;
           border: 1px solid #42525d9c;
-          padding: 10px 0 10px 0;
+          padding: 15px;
           outline: none;
           border-radius: 8px;
           color: #a8b7c2;
@@ -223,14 +225,18 @@
         font-size: 36px;
         padding-bottom: 20px;
         font-weight: bolder;
+        color: 
+        #a7b6c1;
       }
 
       .head {
         background-color: #061b2a;
-        padding: 20px 20px;
+        padding: 10px 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        border-radius: 10px;
+    
 
         @include lg {
           flex-direction: column;
@@ -262,7 +268,7 @@
           }
 
           input {
-            padding: 10px 30px;
+            padding: 14px 30px;
             background: #132835;
             border: none;
             border-radius: 8px;
@@ -285,7 +291,7 @@
     }
 
     .review-excahnage-section-five {
-      padding: 80px 0;
+      padding: 30px 0;
       border-bottom: 1px solid #42525d9c;
 
       .review-title-parent {
@@ -319,7 +325,7 @@
         }
 
         h6 {
-          padding-top: 50px;
+          padding-top: 30px;
           color: #525d64;
         }
       }
@@ -334,10 +340,12 @@
 
       .head {
         background-color: #061b2a;
-        padding: 20px 20px;
+        padding: 10px 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        border-radius: 10px;
+    
 
         @include lg {
           flex-direction: column;
@@ -348,7 +356,7 @@
 
         .date {
           button {
-            padding: 15px 50px;
+            padding: 20px 50px;
             border-radius: 8px;
             background: #1c2e3c;
           }

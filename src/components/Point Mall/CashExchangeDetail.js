@@ -196,7 +196,7 @@ const CashExchangeDetail = () => {
                                 총 현금 금액
                                 <span style={{ float: "right", marginTop: "-5px", color: "#A8B7C2" }}>
 
-                                    총 수량 1개 <span style={{ fontSize: "20px", }}> 10,000 </span>
+                                    총 수량 1개 <span style={{ fontSize: "20px",paddingLeft:'10px' }}> 10,000 </span>
                                     <span style={{
                                         color: "#A8B7C2"
                                     }}> 원 </span>
@@ -269,8 +269,8 @@ const CashExchangeDetail = () => {
                             </Stack>
                         </div>
 
-                        <div style={{ display: 'flex', float: 'right', alignItems: 'center',marginTop:'-25px' }}>
-                            <h6>목록보기</h6>
+                        <div style={{ display: 'flex', float: 'right', alignItems: 'center',marginTop:'-25px',}}>
+                            <h6 style={{color:'#535d64' }}>목록보기</h6>
                             <img src="./images/home/ham.svg" alt="" style={{ width: '25%', marginLeft: '10px' }} />
                         </div>
                     </div>
