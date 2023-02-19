@@ -3,6 +3,7 @@ import '../../scss/Mall Point/CoupnMallDetail.scss'
 import { CoupnMAllDetailReview } from '../../assets/data'
 import { Pagination, Stack } from "@mui/material";
 import rocket from "../../assets/images/Cash Exchange Details/rocket.png"
+import MallDetailSlider from './MallDetailSlider';
 
 const CouponMallDetail = () => {
     return (
@@ -15,7 +16,7 @@ const CouponMallDetail = () => {
                     <div className="table-parent">
                         <div className="first-exchange-table">
                             <h1>글쓰기</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>자유게시판
                                 </li>
                                 <span>500p</span>
@@ -33,7 +34,7 @@ const CouponMallDetail = () => {
                                 카지노후기</li>
                                 <span>2,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>카지노 노하우
 
                                 </li>
@@ -44,7 +45,7 @@ const CouponMallDetail = () => {
 
                         <div className="first-exchange-table">
                             <h1>출석체크</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>당일출석체크</li>
                                 <span>1,500p</span>
                             </div>
@@ -79,7 +80,7 @@ const CouponMallDetail = () => {
                                 </li>
                                 <span>12,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>
                                 누적 28일
                                 
@@ -93,7 +94,7 @@ const CouponMallDetail = () => {
 
                         <div className="first-exchange-table">
                             <h1>기타</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>가입인사(1회성)</li>
                                 <span>3,500p</span>
                             </div>
@@ -102,7 +103,7 @@ const CouponMallDetail = () => {
                                 </li>
                                 <span>200p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>업체 댓글(중복X)</li>
                                 <span>1000p</span>
                             </div>
@@ -155,8 +156,8 @@ const CouponMallDetail = () => {
                 </li>
                 <li>1개원 기준, 전환 횟수 무관</li>
 
-                <div style={{paddingTop:'50px'}}>
-        <center><span style={{fontSize:'24px'}}>마카오 카지노</span></center>
+                <div style={{paddingTop:'20px'}}>
+        <center><span style={{fontSize:'24px',color:'#a7b6c1'}}>마카오 카지노</span></center>
         <span style={{float:'right',color:'#a7b6c1',marginTop:'-30px'}}>1인당 무제한 구매 가능 | A/S가능</span>
         </div>
             </div>
@@ -188,15 +189,15 @@ const CouponMallDetail = () => {
                             
                             <span style={{ float: "right", marginTop: "-5px", color: "#A8B7C2" }}>
 
-                            총 쿠폰금액 <span style={{ fontSize: "20px", }}> 35,000 </span>
+                            총 쿠폰금액 <span style={{ fontSize: "20px",paddingLeft:'10px' }}> 35,000 </span>
                                 <span style={{
                                     color: "#A8B7C2"
                                 }}> 원 </span>
                             </span>
                         </span>
 
-                        <div className="form-button">
-                            <button>선물하기</button>
+                        <div className="form-button" style={{display:'flex',width:'100%'}}>
+                            <button style={{background:'none',border:'2px solid rgb(124, 134, 140)'}}>선물하기</button>
                             <button className="active">바로구매</button>
                         </div>
                     </div>
@@ -207,7 +208,7 @@ const CouponMallDetail = () => {
                 <div className="filter">
                     <h1>REVIEW</h1>
                     <div className="head">
-                        <h3>베스트순 | 최신순</h3>
+                    <span>베스트순 | <span style={{color:'#5E6B73'}}>최신순</span></span>
                         <div className="date">
                             <select>
                                 <option value="">별점순</option>
@@ -220,23 +221,26 @@ const CouponMallDetail = () => {
                 {CoupnMAllDetailReview.map((reviewmap) => {
                     return (
                         <div className="review-excahnage-section-five">
-                            <div className="review-title-parent">
-                                <span>{reviewmap.reviewtitle}</span>
-                                <span className="review-star">
-                                    <img src={reviewmap.reviewstar} alt="" />
-                                    <img src={reviewmap.reviewstar} alt="" />
-                                    <img src={reviewmap.reviewstar} alt="" />
-                                    <img src={reviewmap.reviewstar} alt="" />
-                                    (5.0)
-                                </span>
-                            </div>
+                                <div className="review-title-parent">
+                                    <span>{reviewmap.reviewtitle}</span>
+                                    <span className="review-star">
+                                        <img src={reviewmap.reviewstar} alt="" />
+                                        <img src={reviewmap.reviewstar} alt="" />
+                                        <img src={reviewmap.reviewstar} alt="" />
+                                        <img src={reviewmap.reviewstar} alt="" />
+                                        (5.0)
+                                    </span>
+                                </div>
 
-                            <div className="review-para">
-                                <p>{reviewmap.reviewpara}</p>
+                                <div className="review-para" style={{lineHeight:'22px'}}>
+                                    <p>{reviewmap.reviewpara}</p>
+                                    <p>{reviewmap.reviewpara1}</p>
+                                    <p>{reviewmap.reviewpara2}</p>
+                                    <p  style={{paddingTop:'20px'}}>{reviewmap.reviewpara3}</p>
 
-                                <h6>{reviewmap.reviewdate}</h6>
+                                    <h6>{reviewmap.reviewdate}</h6>
+                                </div>
                             </div>
-                        </div>
                     );
                 })}
 
@@ -249,9 +253,13 @@ const CouponMallDetail = () => {
                             <Pagination count={10} showFirstButton showLastButton />
                         </Stack>
                     </div>
-                    <div style={{display:'flex',float:'right',alignItems:'center'}}>
-                        <h6>목록보기</h6>
-                        <img src="./images/togle.png" alt="" style={{width:'25%',marginLeft:'10px'}}/>
+                  
+
+
+
+                        <div style={{ display: 'flex', float: 'right', alignItems: 'center',marginTop:'-25px',}}>
+                            <h6 style={{color:'#535d64' }}>목록보기</h6>
+                            <img src="./images/home/ham.svg" alt="" style={{ width: '25%', marginLeft: '10px' }} />
                         </div>
                 </div>
             </div>
@@ -259,7 +267,7 @@ const CouponMallDetail = () => {
             <div className="exchange-section-six">
                 <div className="filter">
                     <div className="head">
-                        <h3>베스트순 | 최신순</h3>
+                        <h3 style={{color:'rgb(83, 93, 100)'}}>베스트순 | 최신순</h3>
                         <div className="date">
                             <button>등록</button>
                         </div>
@@ -268,6 +276,8 @@ const CouponMallDetail = () => {
 
 
             </div>
+
+            <MallDetailSlider/>
 
             </div>
         </Fragment>

@@ -14,7 +14,7 @@ const CouponPageTwo = () => {
                     <div className="table-parent">
                         <div className="first-exchange-table">
                             <h1>글쓰기</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>자유게시판
                                 </li>
                                 <span>500p</span>
@@ -32,7 +32,7 @@ const CouponPageTwo = () => {
                                 </li>
                                 <span>2,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>
                                     카지노 노하우</li>
                                 <span>2,000p</span>
@@ -41,7 +41,7 @@ const CouponPageTwo = () => {
 
                         <div className="first-exchange-table">
                             <h1>출석체크</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>당일출석체크</li>
                                 <span>500p</span>
                             </div>
@@ -73,7 +73,7 @@ const CouponPageTwo = () => {
                                     누적 21일</li>
                                 <span>12,000p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>
                                     누적 28일
 
@@ -84,7 +84,7 @@ const CouponPageTwo = () => {
 
                         <div className="first-exchange-table">
                             <h1>기타</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
+                            <div className="first" style={{ paddingTop: "20px" }}>
                                 <li>가입인사(1회성)
                                 </li>
                                 <span>3,500p</span>
@@ -93,7 +93,7 @@ const CouponPageTwo = () => {
                                 <li>모든댓글</li>
                                 <span>200p</span>
                             </div>
-                            <div className="first">
+                            <div className="first" style={{paddingBottom:'20px'}}>
                                 <li>인증업체 댓글(중복X)
 
                                 </li>
@@ -164,14 +164,14 @@ const CouponPageTwo = () => {
                         </div>
 
                         <div className="head">
-                            <button>쿠폰전환</button>
+                            <button style={{color:'#868f95'}}>쿠폰전환</button>
                             <button className='active'>현금전환</button>
                         </div>
                     </div>
 
                     {
                         CouponExchangeSection.map((exchange) => {
-                            const { img, parafirst, coupon, parasecond, parathird, rocketimg, rockettext } = exchange;
+                            const { img, parafirst, coupon, parasecond, parathird, rocketimg, rockettext,span } = exchange;
                             return (
 
                                 <div className='coupon-exchange-section'>
@@ -179,8 +179,8 @@ const CouponPageTwo = () => {
                                         <img src={img} alt="" />
                                         <div className='coupon-exchange-note-detail'>
                                             <p className='para-first'>{parafirst}</p>
-                                            <h1>{coupon}</h1>
-                                            <p className='para-second'>{parasecond}</p>
+                                            <h1>{coupon} <span>{span}</span> </h1>
+                                            <p className='para-second' style={{padding:'10px 0',color:'#a7b6c1'}}>{parasecond}</p>
                                             <p className='para-third'>{parathird}.</p>
                                         </div>
                                     </div>
@@ -200,7 +200,7 @@ const CouponPageTwo = () => {
                     <h1>필독사항</h1>
                     <input type="textarea" />
                 </div>
-                <CouponSlider />
+                {/* <CouponSlider /> */}
             </div>
         </Fragment>
     )

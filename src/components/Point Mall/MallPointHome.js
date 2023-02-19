@@ -13,75 +13,83 @@ const MallPointHome = () => {
 
                     <div className="table-parent">
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
+                            <h1>글쓰기</h1>
+                            <div className="first" style={{ paddingTop: "20px" }}>
+                                <li>자유게시판</li>
                                 <span>500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>갤러리</li>
+                                <span>300p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>먹튀신고</li>
+                                <span>2,000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>카지노후기</li>
+                                <span>2,000p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <div className="first" style={{paddingBottom:'20px'}}>
+                                <li>카지노 노하우</li>
+                                <span>2,00p</span>
                             </div>
                         </div>
 
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <h1>출석체크</h1>
+                            <div className="first" style={{ paddingTop: "20px" }}>
+                                <li>당일출석체크</li>
+                                <span>1,500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>1위</li>
+                                <span>3,000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>2위</li>
+                                <span>2000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>3위</li>
+                                <span>3100p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>누적 7일</li>
+                                <span>3,000p</span>
+                            </div>
+                            <div className="first">
+                                <li>
+                                    누적 14일</li>
+                                <span>6,000p</span>
+                            </div>
+                            <div className="first">
+                                <li>누적 21일
+                                </li>
+                                <span>12,000p</span>
+                            </div>
+                            <div className="first" style={{paddingBottom:'20px'}} >
+                                <li>누적 28일</li>
+                                <span>25,000p</span>
                             </div>
                         </div>
 
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <h1>기타</h1>
+                            <div className="first" style={{ paddingTop: "20px" }}>
+                                <li>가입인사(1회성)</li>
+                                <span>3,500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>모든댓글</li>
+                                <span>200p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <div className="first" style={{paddingBottom:'20px'}}>
+                                <li>인증업체 댓글(중복X)
+                                </li>
+                                <span>1000p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
-                            </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -126,9 +134,10 @@ const MallPointHome = () => {
                 </div>
 
                 <div className="exchange-section-three">
-                    <li>개월 이내 카지노 인사이드 코드를 사</li>
-                    <li>용하여 충전한 회원에게만 해당 부적절</li>
-                    <li>몰수 처리 1개원 기준, 전환 횟수 무관</li>
+                    <li>1개월 이내 카지노 인사이드 코드를 사용하여 충전한 회원에게만 해당</li>
+                    <li>부적절한 방법으로 인해, 얻은 포인트는 전액 몰수 처리
+                    </li>
+                    <li>1개원 기준, 전환 횟수 무관</li>
                 </div>
 
 
@@ -159,27 +168,30 @@ const MallPointHome = () => {
                         </div>
 
                     </div>
-
+<div>
+<h1 style={{fontSize:'32px',color:'#a8b7c2',fontWeight
+:'bolder'}}>Cash Product</h1>
+</div>
                     {
                         CouponExchangeSection.map((exchange) => {
-                            const { img, parafirst, coupon, parasecond, parathird, rocketimg, rockettext } = exchange;
+                            const { img, parafirst, coupon, parasecond, parathird, rocketimg, rockettext,span } = exchange;
                             return (
 
                                 <div className='coupon-exchange-section'>
-                                    <div className='coupon-exchange-note'>
-                                        <img src={img} alt="" />
-                                        <div className='coupon-exchange-note-detail'>
-                                            <p className='para-first'>{parafirst}</p>
-                                            <h1>{coupon}</h1>
-                                            <p className='para-second'>{parasecond}</p>
-                                            <p className='para-third'>{parathird}.</p>
-                                        </div>
-                                    </div>
-                                    <div className='coupn-exchange-rocket'>
-                                        <img src={rocketimg} alt="" />
-                                        <h6> {rockettext}</h6>
+                                <div className='coupon-exchange-note'>
+                                    <img src={img} alt="" />
+                                    <div className='coupon-exchange-note-detail'>
+                                        <p className='para-first'>{parafirst}</p>
+                                        <h1>{coupon} <span>{span}</span> </h1>
+                                        <p className='para-second' style={{padding:'10px 0',color:'#a7b6c1'}}>{parasecond}</p>
+                                        <p className='para-third'>{parathird}.</p>
                                     </div>
                                 </div>
+                                <div className='coupn-exchange-rocket'>
+                                    <img src={rocketimg} alt="" />
+                                    <h6> {rockettext}</h6>
+                                </div>
+                            </div>
                             )
                         })
                     }
