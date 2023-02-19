@@ -197,7 +197,10 @@ function App() {
               path="/casino-certification-second"
               element={<CasinoCertificationTwoPage />}
             />
-            <Route path="/casino-certification-third" element={<CasinoCertificationThirdPage />} />
+            <Route
+              path="/casino-certification-third"
+              element={<CasinoCertificationThirdPage />}
+            />
           </Routes>
         </main>
       </Grid>

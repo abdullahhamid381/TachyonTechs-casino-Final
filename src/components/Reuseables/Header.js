@@ -10,6 +10,7 @@ import WidgetsBar from "./WidgetsBar";
 import bars from "../../assets/images/icons/menu.png";
 import cross from "../../assets/images/icons/cross.png";
 import { BsChevronUp } from "react-icons/bs";
+import userLogo from "../../assets/images/icons/profle_30@3x.png";
 const Header = ({
     toggle,
     setToggle,
@@ -37,8 +38,10 @@ const Header = ({
                             <div className="menu">
                                 <HiBars3 onClick={() => setToggleLg(!toggleLg)} />
                             </div>
-
-                            <p>
+                            <p className="sm">
+                                게임 노하우를 공유하는 목적으로 개설된 카인사
+                            </p>
+                            <p className="lg">
                                 모든 카지노사이트를 검증하고, 카지노게임에 대한{" "}
                                 <span style={{ color: "#ebebeb" }}>
                                     구체적인 베팅 노하우를 공유하는 목적으로 개설된 커뮤니티입니다
@@ -47,7 +50,7 @@ const Header = ({
                             </p>
                         </div>
                         <div className="end">
-                            <div className="links">
+                            {/* <div className="links">
                                 <Link to={""}>
                                     <div className="icon">🥇</div>
                                     <p>5000 누적포인트</p>
@@ -61,6 +64,15 @@ const Header = ({
                                     <div className="icon">🥇</div>
                                     <p>회원가입_로그추가페이지</p>
                                 </Link>
+                            </div> */}
+                            <div className="user">
+                                <div className="img">
+                                    <img src={userLogo} alt="" />
+                                </div>
+                                <ul>
+                                    <li>로그인</li>
+                                    <li>회원가입</li>
+                                </ul>
                             </div>
                             <Link className="btn" to={""}>
                                 출석체크
