@@ -13,75 +13,83 @@ const CouponPageLast = () => {
 
                     <div className="table-parent">
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
+                            <h1>글쓰기</h1>
+                            <div className="first" style={{ paddingTop: "20px !important" }}>
+                                <li>자유게시판</li>
                                 <span>500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>갤러리</li>
+                                <span>300p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>먹튀신고</li>
+                                <span>2,000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>카지노후기</li>
+                                <span>2,000p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <div className="first" style={{paddingBottom:'20px !important'}}>
+                                <li>카지노 노하우</li>
+                                <span>2,00p</span>
                             </div>
                         </div>
 
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <h1>출석체크</h1>
+                            <div className="first" style={{ paddingTop: "20px !important" }}>
+                                <li>당일출석체크</li>
+                                <span>1,500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>1위</li>
+                                <span>3,000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>2위</li>
+                                <span>2000p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>3위</li>
+                                <span>3100p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>누적 7일</li>
+                                <span>3,000p</span>
+                            </div>
+                            <div className="first">
+                                <li>
+                                    누적 14일</li>
+                                <span>6,000p</span>
+                            </div>
+                            <div className="first">
+                                <li>누적 21일
+                                </li>
+                                <span>12,000p</span>
+                            </div>
+                            <div className="first" style={{paddingBottom:'20px !important'}} >
+                                <li>누적 28일</li>
+                                <span>25,000p</span>
                             </div>
                         </div>
 
                         <div className="first-exchange-table">
-                            <h1>카인사포인트</h1>
-                            <div className="first" style={{ paddingTop: "40px" }}>
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <h1>기타</h1>
+                            <div className="first" style={{ paddingTop: "20px !important" }}>
+                                <li>가입인사(1회성)</li>
+                                <span>3,500p</span>
                             </div>
                             <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                                <li>모든댓글</li>
+                                <span>200p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
+                            <div className="first" style={{paddingBottom:'20px !important'}}>
+                                <li>인증업체 댓글(중복X)
+                                </li>
+                                <span>1000p</span>
                             </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
-                            </div>
-                            <div className="first">
-                                <li>카인사포인트</li>
-                                <span>500p</span>
-                            </div>
+
                         </div>
                     </div>
                 </div>

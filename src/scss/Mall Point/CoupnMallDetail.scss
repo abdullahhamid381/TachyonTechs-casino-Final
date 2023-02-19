@@ -22,13 +22,14 @@
 
       h1 {
         background: #061b2a;
-        padding: 30px 20px;
-        border-bottom: 1px solid gray;
+        padding: 20px 20px;
+        border-bottom: 1px solid #42525d9c;
+        opacity: 0.9;
       }
 
       .first {
         display: flex;
-        padding: 20px 0;
+        padding: 10px 30px;
         justify-content: space-between;
 
         li {
@@ -58,14 +59,15 @@
         font-size: 14px;
         width: 60%;
         padding-bottom: 40px;
+        line-height: 22px;
+        opacity: 0.9;
       }
     }
 
     .exchange-section-two-table {
       h1 {
-        padding: 30px 0;
-
-        font-size: 20px;
+        padding: 25px 0;
+        font-size: 12px;
       }
 
       .exchange-section-two-table-parent {
@@ -82,7 +84,9 @@
 
         h2 {
           background: #061b2a;
-          padding: 20px 40px 20px 80px;
+          padding: 21px 40px 20px 40px;
+          font-size: 14px;
+          color: #a7b6c1;
 
           @include lg {
             padding: 20px 40px 20px 10px;
@@ -90,8 +94,9 @@
         }
 
         p {
-          border-left: 1px solid gray;
+          border-left: 1px solid #42525d9c;
           padding: 20px 0 20px 80px;
+          opacity: 0.9;
 
           @include lg {
             border-left: none;
@@ -103,7 +108,7 @@
   }
 
   .exchange-section-three {
-    padding: 20px 0 200px 0;
+    padding: 20px 0 150px 0;
 
     li {
       padding: 5px 0;
@@ -154,8 +159,8 @@
         select {
           background: none;
           width: 100%;
-          border: 1px solid gray;
-          padding: 10px 0 10px 0;
+          border: 1px solid #42525d9c;
+          padding: 15px;
           outline: none;
           border-radius: 8px;
           color: #a8b7c2;
@@ -165,11 +170,12 @@
         .form-button {
           button {
             padding: 15px 30px;
-            border: 1px solid gray;
+            border: 1px solid #42525d9c;
             transition: 0.3s;
             border-radius: 8px;
             color: #a8b7c2;
             margin-top: 40px;
+            width: 100%;
 
             @include lg {
               width: 100%;
@@ -200,14 +206,16 @@
         font-size: 36px;
         padding-bottom: 20px;
         font-weight: bolder;
+        color: #a7b6c1;
       }
 
       .head {
         background-color: #061b2a;
-        padding: 20px 20px;
+        padding: 10px 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        border-radius: 10px;
 
         @include lg {
           flex-direction: column;
@@ -260,13 +268,13 @@
     }
 
     .review-excahnage-section-five {
-      padding: 80px 0;
-      border-bottom: 1px solid gray;
+      padding: 30px 0;
+      border-bottom: 1px solid #42525d9c;      border-bottom: 1px solid gray;
       .review-title-parent {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 0;
+        padding: 30px 0;
 
         @include lg {
           display: flex;
@@ -293,7 +301,7 @@
         }
 
         h6 {
-          padding-top: 50px;
+          padding-top: 30px;
           color: #525d64;
         }
       }
@@ -306,10 +314,11 @@
 
       .head {
         background-color: #061b2a;
-        padding: 20px 20px;
+        padding: 10px 20px;
         align-items: center;
         display: flex;
         justify-content: space-between;
+        border-radius: 10px;
 
         @include lg {
           flex-direction: column;
@@ -320,7 +329,7 @@
 
         .date {
           button {
-            padding: 15px 50px;
+            padding: 20px 50px;
             border-radius: 8px;
             background: #1c2e3c;
           }

@@ -49,9 +49,13 @@ const BonusSecond = ({ img }) => {
                         })
                     }
 
-                    <p>*누적 30일 출석 시 출석 1일로 초기화 됩니다.</p>
+                   
 
                 </div>
+                <div style={{display:'flex',justifyContent:'end',paddingBottom:'80px'}}>
+
+                   <p style={{color:'#727d85'}}>*누적 30일 출석 시 출석 1일로 초기화 됩니다.</p>
+                   </div>
 
 
                 {/* CALENDER START FROM HERE  */}

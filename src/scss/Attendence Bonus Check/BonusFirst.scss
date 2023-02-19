@@ -11,8 +11,7 @@
     align-items: center;
     padding: 80px 0;
 
-    @include md {
-    }
+    @include md {}
 
     /* FORM TITLE CSS DTART FROM HERE */
 
@@ -46,6 +45,8 @@
       span {
         float: right;
         margin: 10px 0;
+        color:
+          #fce2b3;
 
         @include md {
           margin-right: 43%;
@@ -59,6 +60,7 @@
       p {
         padding: 40px 0 10px 0;
         color: #e0e1e2;
+        margin-left: 5px;
       }
 
       select {
@@ -83,6 +85,7 @@
       p {
         padding: 20px 0 10px 0;
         color: #e0e1e2;
+        margin-left: 5px;
       }
 
       .first-input {
@@ -137,8 +140,10 @@
 
     .form-fifth {
       p {
-        padding: 20px 0;
-        font-size: 14px;
+        padding: 20px 0 5px 0;
+    font-size: 12px;
+    color: #e0e1e2;
+    margin-left: 5px;
       }
 
       input {

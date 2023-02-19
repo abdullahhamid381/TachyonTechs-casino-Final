@@ -1253,17 +1253,42 @@ export const CoupnMAllDetailReview = [
     {
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
         reviewstar: "./images/review star.png",
+
         reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요 가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요 제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
+            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요",
+        reviewpara1: '가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요',
+        reviewpara2: '제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요',
+        reviewpara3: ' 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.',
         reviewdate: "2023.01.01",
 
+
+    },
+  
+    {
+        reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
+        reviewstar: "./images/review star.png",
+        reviewpara:
+            "굿~~^^ ",
+            reviewpara1: '온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요',
+        reviewdate: "2023.01.02",
     },
     {
         reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
         reviewstar: "./images/review star.png",
         reviewpara:
-            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요  가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요  제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요  배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.",
+            "예전에 홈플갔다가 사서 쓴적이 있었어요~ 저흰 온 가족이 함께 씁니다. 초딩 중딩 딸들과 함께요",
+        reviewpara1: '가족 모두가 가을 겨울이면 넉넉히 쓸 수있겠다 싶어 구매했네요',
+        reviewpara2: '제가 건조함을 많이 느껴서 바디로션은 많이 쓰는편이라 용량이 커서 겨울내내 2개면 쓸 수 있을꺼 같아요',
+        reviewpara3: ' 배송당시 박스 안에 빵빵한 비닐이 들어있긴하나 한쪽만 감싸져 있어요~ 뽁뽁이로 감는게 더 안전하지 않을까 싶네요 펌핑 꼭지 부분 파손되는 경우가 종종 있어서요 전 다행히 파손없이 도착했습니다.',
         reviewdate: "2023.01.01",
+    },
+    {
+        reviewtitle: "LV1. staccatovivace(닉네임) | 구매금액 총 500,000원",
+        reviewstar: "./images/review star.png",
+        reviewpara:
+        "굿~~^^ ",
+        reviewpara1: '온바디로션이라 만족해요 핸드크림도 온바디체리블라썸 사용했는데 지금은 구매할수가없네요 사용 후 번들거리지도 않고 촉촉하니 좋아요',
+        reviewdate: "2023.01.02",
     },
 ];
 
@@ -1273,7 +1298,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "카인사뱅크_",
-        coupon: "50,000원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다..",
         rocketimg: "./images/rocket.png",
@@ -1282,7 +1308,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/notetwo.png",
         parafirst: "카인사뱅크",
-        coupon: "10,000원권",
+        coupon: "10,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1291,7 +1318,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "카인사뱅크",
-        coupon: "50,000원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1300,7 +1328,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "카인사뱅크",
-        coupon: "50,000원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1309,7 +1338,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "카인사뱅크",
-        coupon: "50,000원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1318,7 +1348,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "포인트몰_",
-        coupon: "50,000 원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1327,7 +1358,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "포인트몰_",
-        coupon: "50,000 원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
@@ -1336,7 +1368,8 @@ export const CouponExchangeSection = [
     {
         img: "./images/typenotefirst.png",
         parafirst: "포인트몰_",
-        coupon: "50,000 원권",
+        coupon: "50,000",
+        span:'원권',
         parasecond: "1인당 무제한 구매 가능",
         parathird: "보유하신 포인트를 쿠폰으로 전환 할 수 있습니다.",
         rocketimg: "./images/rocket.png",
